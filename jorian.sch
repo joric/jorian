@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:kbd
+LIBS:jorian-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -15,13 +15,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 850  6500 0    70   ~ 0
-SWCLK
+SWC
 Text Label 850  6600 0    70   ~ 0
-SWDIO
+SWD
 Text Label 850  3100 0    70   ~ 0
-SWCLK
+SWC
 Text Label 850  3200 0    70   ~ 0
-SWDIO
+SWD
 Text Label 2950 2100 0    70   ~ 0
 S19
 Text Label 2950 2400 0    70   ~ 0
@@ -157,94 +157,94 @@ NoConn ~ 1250 3900
 NoConn ~ 1250 7200
 NoConn ~ 1250 7300
 $Comp
-L kbd:edge_conn E16
+L Connector_Generic:Conn_01x05 E16
 U 1 1 5C28A7CD
-P 13650 4100
-F 0 "E16" H 13706 4665 50  0000 C CNN
-F 1 "edge_conn_right" H 13706 4574 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 13650 4700 50  0001 C CNN
-F 3 "" H 13650 4700 50  0001 C CNN
-	1    13650 4100
-	1    0    0    -1  
+P 15100 3950
+F 0 "E16" H 15100 4250 50  0000 C CNN
+F 1 "right" H 15100 3650 50  0000 C CNN
+F 2 "kbd:edge_conn_right" H 15100 3950 50  0001 C CNN
+F 3 "" H 15100 3950 50  0001 C CNN
+	1    15100 3950
+	-1   0    0    -1  
 $EndComp
 $Comp
-L kbd:edge_conn E18
+L Connector_Generic:Conn_01x05 E18
 U 1 1 5C28AA80
-P 12825 4100
-F 0 "E18" H 12931 4665 50  0000 C CNN
-F 1 "edge_conn_left" H 12931 4574 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 12825 4700 50  0001 C CNN
-F 3 "" H 12825 4700 50  0001 C CNN
-	1    12825 4100
+P 14900 3950
+F 0 "E18" H 14900 4250 50  0000 C CNN
+F 1 "left" H 14900 3650 50  0000 C CNN
+F 2 "kbd:edge_conn_left" H 14900 3950 50  0001 C CNN
+F 3 "" H 14900 3950 50  0001 C CNN
+	1    14900 3950
 	1    0    0    -1  
 $EndComp
-Text Label 13900 3800 0    50   ~ 0
+Text Label 15300 3750 0    50   ~ 0
 GND
-Text Label 13900 3950 0    50   ~ 0
+Text Label 15300 3850 0    50   ~ 0
 S18
-Text Label 13900 4100 0    50   ~ 0
+Text Label 15300 3950 0    50   ~ 0
 VCC
 Text Label 3150 3000 0    70   ~ 0
 LED_DATA
 Text Label 3150 6600 0    70   ~ 0
 LED_DATA
 $Comp
-L kbd:edge_conn E19
+L Connector_Generic:Conn_01x05 E19
 U 1 1 5C6E087C
-P 15275 1875
-F 0 "E19" H 15331 2440 50  0000 C CNN
-F 1 "edge_conn_right" H 15331 2349 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15275 2475 50  0001 C CNN
-F 3 "" H 15275 2475 50  0001 C CNN
-	1    15275 1875
-	1    0    0    -1  
+P 15100 1700
+F 0 "E19" H 15100 2000 50  0000 C CNN
+F 1 "right" H 15100 1400 50  0000 C CNN
+F 2 "kbd:edge_conn_right" H 15100 1700 50  0001 C CNN
+F 3 "" H 15100 1700 50  0001 C CNN
+	1    15100 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
-L kbd:edge_conn E5
+L Connector_Generic:Conn_01x05 E5
 U 1 1 5C6E0883
-P 14500 1875
-F 0 "E5" H 14556 2440 50  0000 C CNN
-F 1 "edge_conn_left" H 14556 2349 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14500 2475 50  0001 C CNN
-F 3 "" H 14500 2475 50  0001 C CNN
-	1    14500 1875
+P 14900 1700
+F 0 "E5" H 14900 2000 50  0000 C CNN
+F 1 "left" H 14900 1400 50  0000 C CNN
+F 2 "kbd:edge_conn_left" H 14900 1700 50  0001 C CNN
+F 3 "" H 14900 1700 50  0001 C CNN
+	1    14900 1700
 	1    0    0    -1  
 $EndComp
-Text Label 14750 1575 0    50   ~ 0
+Text Label 14700 1500 2    50   ~ 0
 GND
-Text Label 14750 1725 0    50   ~ 0
+Text Label 14700 1600 2    50   ~ 0
 S19
-Text Label 14750 1875 0    50   ~ 0
+Text Label 14700 1700 2    50   ~ 0
 S20
-Text Label 14750 3975 0    50   ~ 0
+Text Label 14700 3100 2    50   ~ 0
 S21
 $Comp
-L kbd:edge_conn E21
+L Connector_Generic:Conn_01x05 E21
 U 1 1 5C6F2906
-P 15250 4125
-F 0 "E21" H 15306 4690 50  0000 C CNN
-F 1 "edge_conn_right" H 15306 4599 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15250 4725 50  0001 C CNN
-F 3 "" H 15250 4725 50  0001 C CNN
-	1    15250 4125
-	1    0    0    -1  
+P 15100 3200
+F 0 "E21" H 15100 3500 50  0000 C CNN
+F 1 "right" H 15100 2900 50  0000 C CNN
+F 2 "kbd:edge_conn_right" H 15100 3200 50  0001 C CNN
+F 3 "" H 15100 3200 50  0001 C CNN
+	1    15100 3200
+	-1   0    0    -1  
 $EndComp
 $Comp
-L kbd:edge_conn E15
+L Connector_Generic:Conn_01x05 E15
 U 1 1 5C6F290D
-P 14500 4125
-F 0 "E15" H 14556 4690 50  0000 C CNN
-F 1 "edge_conn_left" H 14556 4599 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14500 4725 50  0001 C CNN
-F 3 "" H 14500 4725 50  0001 C CNN
-	1    14500 4125
+P 14900 3200
+F 0 "E15" H 14900 3500 50  0000 C CNN
+F 1 "left" H 14900 2900 50  0000 C CNN
+F 2 "kbd:edge_conn_left" H 14900 3200 50  0001 C CNN
+F 3 "" H 14900 3200 50  0001 C CNN
+	1    14900 3200
 	1    0    0    -1  
 $EndComp
-Text Label 14750 3825 0    50   ~ 0
+Text Label 14700 3000 2    50   ~ 0
 GND
-Text Label 14750 2825 0    50   ~ 0
+Text Label 14700 2350 2    50   ~ 0
 S22
-Text Label 14750 4125 0    50   ~ 0
+Text Label 14700 3200 2    50   ~ 0
 VCC
 Wire Wire Line
 	1250 5000 1250 4900
@@ -370,53 +370,49 @@ Wire Wire Line
 	3150 5700 2850 5700
 Wire Wire Line
 	3150 2200 2850 2200
-Wire Wire Line
-	1250 4700 1000 4700
-Wire Wire Line
-	1250 5000 1000 5000
-Text Label 13900 4250 0    50   ~ 0
+Text Label 15300 4050 0    50   ~ 0
 DIN18
-NoConn ~ 13900 4400
-Text Label 13075 3950 0    50   ~ 0
+NoConn ~ 15300 4150
+Text Label 14700 3850 2    50   ~ 0
 S18_A
-Text Label 13075 3800 0    50   ~ 0
+Text Label 14700 3750 2    50   ~ 0
 GND_A
-Text Label 13075 4100 0    50   ~ 0
+Text Label 14700 3950 2    50   ~ 0
 VCC_A
-Text Label 13075 4250 0    50   ~ 0
+Text Label 14700 4050 2    50   ~ 0
 DIN18_A
-NoConn ~ 13075 4400
-Text Label 15525 1575 0    50   ~ 0
+NoConn ~ 14700 4150
+Text Label 15300 1500 0    50   ~ 0
 GND_B
-Text Label 15525 1725 0    50   ~ 0
+Text Label 15300 1600 0    50   ~ 0
 S19_B
-Text Label 15525 1875 0    50   ~ 0
+Text Label 15300 1700 0    50   ~ 0
 S20_B
-Text Label 15500 3975 0    50   ~ 0
+Text Label 15300 3100 0    50   ~ 0
 S21_B
-Text Label 15500 3825 0    50   ~ 0
+Text Label 15300 3000 0    50   ~ 0
 GND_B
-Text Label 15500 2825 0    50   ~ 0
+Text Label 15300 2350 0    50   ~ 0
 S22_B
-Text Label 15500 4125 0    50   ~ 0
+Text Label 15300 3200 0    50   ~ 0
 VCC_B
-Text Label 15500 4275 0    50   ~ 0
+Text Label 15300 3300 0    50   ~ 0
 DIN21_B
-Text Label 14750 2025 0    50   ~ 0
+Text Label 14700 1800 2    50   ~ 0
 DIN5
-Text Label 15525 2025 0    50   ~ 0
+Text Label 15300 1800 0    50   ~ 0
 DIN5_B
-Text Label 14750 4275 0    50   ~ 0
+Text Label 14700 3300 2    50   ~ 0
 DIN21
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5C194810
-P 13575 1625
-F 0 "BT1" H 13693 1721 50  0000 L CNN
-F 1 "Battery_Cell" H 13693 1630 50  0000 L CNN
-F 2 "kbd:cr2032_bs-7" V 13575 1685 50  0001 C CNN
-F 3 "~" V 13575 1685 50  0001 C CNN
-	1    13575 1625
+P 14725 1075
+F 0 "BT1" H 14843 1171 50  0000 L CNN
+F 1 "Battery Holder" H 14843 1080 50  0000 L CNN
+F 2 "kbd:cr2032_bs-7" V 14725 1135 50  0001 C CNN
+F 3 "~" V 14725 1135 50  0001 C CNN
+	1    14725 1075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -431,30 +427,16 @@ Text Label 3150 2200 2    70   ~ 0
 SDA
 Text Label 3150 2300 2    70   ~ 0
 SCL
-Text Label 12975 1775 0    50   ~ 0
-SDA
-Text Label 12975 1675 0    50   ~ 0
-SCL
-Text Label 12975 1575 0    50   ~ 0
-VCC
-Text Label 12975 1475 0    50   ~ 0
+Text Label 13100 2800 2    50   ~ 0
 GND
-Text Label 12975 2175 0    50   ~ 0
-SWCLK
-Text Label 12975 2075 0    50   ~ 0
-SWDIO
-Text Label 12975 1975 0    50   ~ 0
-GND
-Text Label 12975 1875 0    50   ~ 0
+Text Label 14725 875  0    50   ~ 0
 VCC
-Text Label 13575 1425 0    50   ~ 0
-VCC
-Text Label 13575 1725 0    50   ~ 0
+Text Label 14725 1175 0    50   ~ 0
 GND
 Text Label 3150 3100 2    70   ~ 0
-SWO
+TX
 Text Label 3150 6500 2    70   ~ 0
-SWO
+TX
 Text Label 1250 1300 2    70   ~ 0
 VCC
 Text Label 1250 1500 2    70   ~ 0
@@ -464,41 +446,30 @@ VCC
 Text Label 1000 5000 2    70   ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_01x08 J1
-U 1 1 5C336E1F
-P 12775 1775
-F 0 "J1" H 12695 2292 50  0000 C CNN
-F 1 "Conn_01x08" H 12695 2201 50  0000 C CNN
-F 2 "kbd:connector_custom_small" H 12775 1775 50  0001 C CNN
-F 3 "~" H 12775 1775 50  0001 C CNN
-	1    12775 1775
+L Connector_Generic:Conn_01x05 E20
+U 1 1 5C1C4E7E
+P 15100 2450
+F 0 "E20" H 15100 2750 50  0000 C CNN
+F 1 "right" H 15100 2150 50  0000 C CNN
+F 2 "kbd:edge_conn_right" H 15100 2450 50  0001 C CNN
+F 3 "" H 15100 2450 50  0001 C CNN
+	1    15100 2450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kbd:edge_conn E20
-U 1 1 5C1C4E7E
-P 15250 2975
-F 0 "E20" H 15306 3540 50  0000 C CNN
-F 1 "edge_conn_right" H 15306 3449 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15250 3575 50  0001 C CNN
-F 3 "" H 15250 3575 50  0001 C CNN
-	1    15250 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:edge_conn E10
+L Connector_Generic:Conn_01x05 E10
 U 1 1 5C1C4E85
-P 14500 2975
-F 0 "E10" H 14556 3540 50  0000 C CNN
-F 1 "edge_conn_left" H 14556 3449 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14500 3575 50  0001 C CNN
-F 3 "" H 14500 3575 50  0001 C CNN
-	1    14500 2975
+P 14900 2450
+F 0 "E10" H 14900 2750 50  0000 C CNN
+F 1 "left" H 14900 2150 50  0000 C CNN
+F 2 "kbd:edge_conn_left" H 14900 2450 50  0001 C CNN
+F 3 "" H 14900 2450 50  0001 C CNN
+	1    14900 2450
 	1    0    0    -1  
 $EndComp
-Text Label 14750 2675 0    50   ~ 0
+Text Label 14700 2250 2    50   ~ 0
 GND
-Text Label 15500 2675 0    50   ~ 0
+Text Label 15300 2250 0    50   ~ 0
 GND_B
 Wire Wire Line
 	4700 1750 4700 2350
@@ -995,39 +966,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 7275 5350 7125
 $Comp
-L power:GND #PWR0105
-U 1 1 5C19B0DD
-P 5450 7625
-F 0 "#PWR0105" H 5450 7375 50  0001 C CNN
-F 1 "GND" H 5450 7475 50  0000 C CNN
-F 2 "" H 5450 7625 50  0001 C CNN
-F 3 "" H 5450 7625 50  0001 C CNN
-	1    5450 7625
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 5C19B0CB
-P 6050 5625
-F 0 "#PWR0102" H 6050 5475 50  0001 C CNN
-F 1 "VCC" H 6050 5775 50  0000 C CNN
-F 2 "" H 6050 5625 50  0001 C CNN
-F 3 "" H 6050 5625 50  0001 C CNN
-	1    6050 5625
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0101
-U 1 1 5C19B0C5
-P 4850 5625
-F 0 "#PWR0101" H 4850 5475 50  0001 C CNN
-F 1 "VCC" H 4850 5775 50  0000 C CNN
-F 2 "" H 4850 5625 50  0001 C CNN
-F 3 "" H 4850 5625 50  0001 C CNN
-	1    4850 5625
-	-1   0    0    -1  
-$EndComp
-$Comp
 L kbd:kbd_SK6812MINI L17
 U 1 1 5C19B0B6
 P 5150 7375
@@ -1267,17 +1205,6 @@ F 3 "" H 6350 7375 60  0001 C CNN
 	1    6350 7375
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5C19B0E3
-P 6650 7625
-F 0 "#PWR0106" H 6650 7375 50  0001 C CNN
-F 1 "GND" H 6650 7475 50  0000 C CNN
-F 2 "" H 6650 7625 50  0001 C CNN
-F 3 "" H 6650 7625 50  0001 C CNN
-	1    6650 7625
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7850 7475 8100 7475
 Wire Wire Line
@@ -1396,21 +1323,10 @@ Wire Wire Line
 Wire Wire Line
 	8500 7275 8500 7125
 $Comp
-L power:GND #PWR?
-U 1 1 5C50901B
-P 8600 7625
-F 0 "#PWR?" H 8600 7375 50  0001 C CNN
-F 1 "GND" H 8600 7475 50  0000 C CNN
-F 2 "" H 8600 7625 50  0001 C CNN
-F 3 "" H 8600 7625 50  0001 C CNN
-	1    8600 7625
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
+L power:VCC #PWR0104
 U 1 1 5C509021
 P 9200 5625
-F 0 "#PWR?" H 9200 5475 50  0001 C CNN
+F 0 "#PWR0104" H 9200 5475 50  0001 C CNN
 F 1 "VCC" H 9200 5775 50  0000 C CNN
 F 2 "" H 9200 5625 50  0001 C CNN
 F 3 "" H 9200 5625 50  0001 C CNN
@@ -1418,10 +1334,10 @@ F 3 "" H 9200 5625 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0107
 U 1 1 5C509027
 P 8000 5625
-F 0 "#PWR?" H 8000 5475 50  0001 C CNN
+F 0 "#PWR0107" H 8000 5475 50  0001 C CNN
 F 1 "VCC" H 8000 5775 50  0000 C CNN
 F 2 "" H 8000 5625 50  0001 C CNN
 F 3 "" H 8000 5625 50  0001 C CNN
@@ -1546,7 +1462,7 @@ VCC_A
 Text Label 9650 7475 2    50   ~ 0
 DIN18_A
 Text Label 10050 7475 0    50   ~ 0
-VCC_A
+GND_A
 NoConn ~ 10050 7275
 Wire Wire Line
 	6100 3550 6100 4750
@@ -1580,4 +1496,332 @@ Wire Wire Line
 	10050 3500 9750 3500
 Wire Wire Line
 	9050 3500 9050 3875
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 5C1A65EC
+P 14100 2000
+F 0 "J3" H 14100 2300 50  0000 C CNN
+F 1 "conn_swd" H 14100 1700 50  0000 C CNN
+F 2 "kbd:connector_swd" H 14100 2000 50  0001 C CNN
+F 3 "~" H 14100 2000 50  0001 C CNN
+	1    14100 2000
+	1    0    0    -1  
+$EndComp
+Text Label 13100 3150 2    50   ~ 0
+VCC
+Text Label 13100 3500 2    50   ~ 0
+SCL
+Text Label 13100 3850 2    50   ~ 0
+SDA
+Text Label 13900 1800 2    50   ~ 0
+VCC
+Text Label 13900 1900 2    50   ~ 0
+GND
+Text Label 13900 2000 2    50   ~ 0
+SWD
+Text Label 13900 2100 2    50   ~ 0
+SWC
+Text Label 14050 950  0    50   ~ 0
+GND
+Text Label 13650 950  2    50   ~ 0
+VCC
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C36F98B
+P 13950 1100
+F 0 "H1" V 13904 1250 50  0000 L CNN
+F 1 "Battery Pad" V 13995 1250 50  0000 L CNN
+F 2 "kbd:battery_pad" H 13950 1100 50  0001 C CNN
+F 3 "~" H 13950 1100 50  0001 C CNN
+	1    13950 1100
+	0    1    1    0   
+$EndComp
+Text Label 13950 1550 2    50   ~ 0
+RX
+Text Label 14150 1550 2    50   ~ 0
+LED
+$Comp
+L power:GND #PWR0103
+U 1 1 5C50901B
+P 8600 7625
+F 0 "#PWR0103" H 8600 7375 50  0001 C CNN
+F 1 "GND" H 8600 7475 50  0000 C CNN
+F 2 "" H 8600 7625 50  0001 C CNN
+F 3 "" H 8600 7625 50  0001 C CNN
+	1    8600 7625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C19B0DD
+P 5450 7625
+F 0 "#PWR0105" H 5450 7375 50  0001 C CNN
+F 1 "GND" H 5450 7475 50  0000 C CNN
+F 2 "" H 5450 7625 50  0001 C CNN
+F 3 "" H 5450 7625 50  0001 C CNN
+	1    5450 7625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5C19B0E3
+P 6650 7625
+F 0 "#PWR0106" H 6650 7375 50  0001 C CNN
+F 1 "GND" H 6650 7475 50  0000 C CNN
+F 2 "" H 6650 7625 50  0001 C CNN
+F 3 "" H 6650 7625 50  0001 C CNN
+	1    6650 7625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5C19B0C5
+P 4850 5625
+F 0 "#PWR0101" H 4850 5475 50  0001 C CNN
+F 1 "VCC" H 4850 5775 50  0000 C CNN
+F 2 "" H 4850 5625 50  0001 C CNN
+F 3 "" H 4850 5625 50  0001 C CNN
+	1    4850 5625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5C19B0CB
+P 6050 5625
+F 0 "#PWR0102" H 6050 5475 50  0001 C CNN
+F 1 "VCC" H 6050 5775 50  0000 C CNN
+F 2 "" H 6050 5625 50  0001 C CNN
+F 3 "" H 6050 5625 50  0001 C CNN
+	1    6050 5625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C1BF402
+P 650 1600
+F 0 "#PWR0108" H 650 1350 50  0001 C CNN
+F 1 "GND" H 650 1450 50  0000 C CNN
+F 2 "" H 650 1600 50  0001 C CNN
+F 3 "" H 650 1600 50  0001 C CNN
+	1    650  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5C1BF40A
+P 650 1300
+F 0 "#PWR0109" H 650 1150 50  0001 C CNN
+F 1 "VCC" H 650 1450 50  0000 C CNN
+F 2 "" H 650 1300 50  0001 C CNN
+F 3 "" H 650 1300 50  0001 C CNN
+	1    650  1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5C1BF412
+P 15600 950
+F 0 "#PWR0110" H 15600 700 50  0001 C CNN
+F 1 "GND" H 15600 800 50  0000 C CNN
+F 2 "" H 15600 950 50  0001 C CNN
+F 3 "" H 15600 950 50  0001 C CNN
+	1    15600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 5C1BF418
+P 16000 950
+F 0 "#PWR0111" H 16000 800 50  0001 C CNN
+F 1 "VCC" H 16000 1100 50  0000 C CNN
+F 2 "" H 16000 950 50  0001 C CNN
+F 3 "" H 16000 950 50  0001 C CNN
+	1    16000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C1BF41E
+P 16000 950
+F 0 "#FLG0101" H 16000 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 16000 1100 50  0000 C CNN
+F 2 "" H 16000 950 50  0001 C CNN
+F 3 "" H 16000 950 50  0001 C CNN
+	1    16000 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C1BF424
+P 15600 950
+F 0 "#FLG0102" H 15600 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 15600 1100 50  0000 C CNN
+F 2 "" H 15600 950 50  0001 C CNN
+F 3 "" H 15600 950 50  0001 C CNN
+	1    15600 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1300 650  1300
+Wire Wire Line
+	1250 1600 650  1600
+Connection ~ 1250 1600
+$Comp
+L power:GND #PWR0112
+U 1 1 5C38ABE5
+P 650 5000
+F 0 "#PWR0112" H 650 4750 50  0001 C CNN
+F 1 "GND" H 650 4850 50  0000 C CNN
+F 2 "" H 650 5000 50  0001 C CNN
+F 3 "" H 650 5000 50  0001 C CNN
+	1    650  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 5C38ABEB
+P 650 4700
+F 0 "#PWR0113" H 650 4550 50  0001 C CNN
+F 1 "VCC" H 650 4850 50  0000 C CNN
+F 2 "" H 650 4700 50  0001 C CNN
+F 3 "" H 650 4700 50  0001 C CNN
+	1    650  4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	650  4700 1250 4700
+Wire Wire Line
+	650  5000 1250 5000
+NoConn ~ 15300 1900
+NoConn ~ 14700 1900
+NoConn ~ 15300 2450
+NoConn ~ 15300 2550
+NoConn ~ 15300 2650
+NoConn ~ 14700 2450
+NoConn ~ 14700 2550
+NoConn ~ 14700 2650
+NoConn ~ 15300 3400
+NoConn ~ 14700 3400
+Text Label 13900 2200 2    50   ~ 0
+SWO
+Text Label 13800 1550 2    50   ~ 0
+TX
+Text Label 3150 3100 0    70   ~ 0
+SWO
+Text Label 3150 6500 0    70   ~ 0
+SWO
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 5C66CA00
+P 13850 950
+F 0 "JP1" H 13750 850 50  0000 C CNN
+F 1 "BAT+" H 13850 1060 50  0000 C CNN
+F 2 "kbd:jumper_3way" H 13850 950 50  0001 C CNN
+F 3 "~" H 13850 950 50  0001 C CNN
+	1    13850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 5C8FCC50
+P 13300 2800
+F 0 "JP2" H 13200 2700 50  0000 C CNN
+F 1 "GND" H 13300 2910 50  0000 C CNN
+F 2 "kbd:jumper_3way" H 13300 2800 50  0001 C CNN
+F 3 "~" H 13300 2800 50  0001 C CNN
+	1    13300 2800
+	1    0    0    -1  
+$EndComp
+Text Label 13500 2800 0    50   ~ 0
+SDA
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 5C9F73CB
+P 13300 3150
+F 0 "JP3" H 13200 3050 50  0000 C CNN
+F 1 "VCC" H 13300 3260 50  0000 C CNN
+F 2 "kbd:jumper_3way" H 13300 3150 50  0001 C CNN
+F 3 "~" H 13300 3150 50  0001 C CNN
+	1    13300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP4
+U 1 1 5CA07EAF
+P 13300 3500
+F 0 "JP4" H 13200 3400 50  0000 C CNN
+F 1 "SCL" H 13300 3610 50  0000 C CNN
+F 2 "kbd:jumper_3way" H 13300 3500 50  0001 C CNN
+F 3 "~" H 13300 3500 50  0001 C CNN
+	1    13300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP5
+U 1 1 5CA18914
+P 13300 3850
+F 0 "JP5" H 13200 3750 50  0000 C CNN
+F 1 "SDA" H 13300 3960 50  0000 C CNN
+F 2 "kbd:jumper_3way" H 13300 3850 50  0001 C CNN
+F 3 "~" H 13300 3850 50  0001 C CNN
+	1    13300 3850
+	1    0    0    -1  
+$EndComp
+Text Label 13500 3150 0    50   ~ 0
+SCL
+Text Label 13500 3500 0    50   ~ 0
+VCC
+Text Label 13500 3850 0    50   ~ 0
+GND
+Wire Wire Line
+	13850 4000 13850 3450
+Wire Wire Line
+	13300 4000 13850 4000
+Wire Wire Line
+	13700 3350 13850 3350
+Wire Wire Line
+	13700 3650 13700 3350
+Wire Wire Line
+	13300 3650 13700 3650
+Wire Wire Line
+	13850 3300 13850 3250
+Wire Wire Line
+	13300 3300 13850 3300
+Wire Wire Line
+	13850 2950 13850 3150
+Wire Wire Line
+	13300 2950 13850 2950
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5C1A6404
+P 14050 3250
+F 0 "J2" H 14050 3450 50  0000 C CNN
+F 1 "conn_i2c" H 14050 2950 50  0000 C CNN
+F 2 "kbd:connector_i2c" H 14050 3250 50  0001 C CNN
+F 3 "~" H 14050 3250 50  0001 C CNN
+	1    14050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small G1
+U 1 1 5C1A33F2
+P 16050 1650
+F 0 "G1" H 16050 1925 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 16050 1425 50  0001 C CNN
+F 2 "kbd:jorian_logo" H 16050 1650 50  0001 C CNN
+F 3 "~" H 16050 1650 50  0001 C CNN
+	1    16050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 5C1A376C
+P 16050 2150
+F 0 "G2" H 16050 2425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 16050 1925 50  0001 C CNN
+F 2 "kbd:jorian_logo" H 16050 2150 50  0001 C CNN
+F 3 "~" H 16050 2150 50  0001 C CNN
+	1    16050 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

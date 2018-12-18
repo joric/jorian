@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 39)
+    (start_pass_no 1005)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -63,17 +63,17 @@
     )
   )
   (class "kicad_default"
-    /S13 /S9 /S4 /S8 /W23 /LED /SWCLK /SWDIO
-    /W26 /S5 /S10 /S3 /S15 /S12 /S22 /S17
-    /S6 /S11 /S19 /S18 "Net-(U2-Pad8)" "Net-(U2-Pad7)" /S16 /S20
-    /S21 /S1 /S2 /S7 "Net-(U1-Pad8)" "Net-(U1-Pad7)" /S14 /DIN18
-    "Net-(E16-Pad5)" "Net-(E18-Pad5)" /DIN21 "/VCC_B" "/DIN21_B" "/GND_B" "/DIN5_B" "/VCC_A"
-    "/DIN18_A" "/GND_A" /DIN5 "/S21_B" "/S20_B" "/S19_B" "/S22_B" "/S18_A"
-    /SWO /SCL /SDA "Net-(E20-Pad5)" "Net-(E19-Pad5)" "Net-(E5-Pad5)" "Net-(E10-Pad5)" "Net-(E20-Pad4)"
-    "Net-(E10-Pad4)" "Net-(E20-Pad3)" "Net-(E10-Pad3)" "Net-(E21-Pad5)" "Net-(E15-Pad5)" "/LED_DATA" GND VCC
-    "Net-(L19-Pad3)" "Net-(L12-Pad3)" "Net-(L10-Pad1)" "Net-(L13-Pad1)" "Net-(L14-Pad1)" "Net-(L13-Pad3)" "Net-(L12-Pad1)" "Net-(L11-Pad1)"
-    "Net-(L11-Pad3)" "Net-(L10-Pad3)" "Net-(L7-Pad1)" "Net-(L20-Pad3)" "Net-(L20-Pad1)" "Net-(L1-Pad1)" "Net-(L1-Pad3)" "Net-(L2-Pad3)"
-    "Net-(L3-Pad3)" "Net-(L4-Pad3)" "Net-(L18-Pad1)"
+    /S13 /S9 /S4 /S8 /W23 /LED /W26 /S5
+    /S10 /S3 /S15 /S12 /S22 /S17 /S6 /S11
+    /S19 /S18 "Net-(U2-Pad8)" "Net-(U2-Pad7)" /S16 /S20 /S21 /S1
+    /S2 /S7 "Net-(U1-Pad8)" "Net-(U1-Pad7)" /S14 /DIN18 "Net-(E16-Pad5)" "Net-(E18-Pad5)"
+    /DIN21 "/VCC_B" "/DIN21_B" "/GND_B" "/DIN5_B" "/VCC_A" "/DIN18_A" "/GND_A"
+    /DIN5 "/S21_B" "/S20_B" "/S19_B" "/S22_B" "/S18_A" /SCL /SDA
+    "Net-(E20-Pad5)" "Net-(E19-Pad5)" "Net-(E5-Pad5)" "Net-(E10-Pad5)" "Net-(E20-Pad4)" "Net-(E10-Pad4)" "Net-(E20-Pad3)" "Net-(E10-Pad3)"
+    "Net-(E21-Pad5)" "Net-(E15-Pad5)" "/LED_DATA" GND VCC "Net-(L19-Pad3)" "Net-(L12-Pad3)" "Net-(L10-Pad1)"
+    "Net-(L13-Pad1)" "Net-(L14-Pad1)" "Net-(L13-Pad3)" "Net-(L12-Pad1)" "Net-(L11-Pad1)" "Net-(L11-Pad3)" "Net-(L10-Pad3)" "Net-(L7-Pad1)"
+    "Net-(L20-Pad3)" "Net-(L20-Pad1)" "Net-(L1-Pad1)" "Net-(L1-Pad3)" "Net-(L2-Pad3)" "Net-(L3-Pad3)" "Net-(L4-Pad3)" "Net-(L18-Pad1)"
+    /SWD /SWC "Net-(H1-Pad1)" /SWO "Net-(J2-Pad4)" "Net-(J2-Pad3)" "Net-(J2-Pad2)" "Net-(J2-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
