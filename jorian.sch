@@ -1687,15 +1687,15 @@ F 3 "" H 13850 1100 50  0001 C CNN
 	1    13850 1100
 	1    0    0    -1  
 $EndComp
-Text Label 12575 2175 2    50   ~ 0
+Text Label 9300 8575 2    50   ~ 0
 SWO
-Text Label 12575 2275 2    50   ~ 0
+Text Label 9300 8675 2    50   ~ 0
 SWC
-Text Label 12575 2375 2    50   ~ 0
+Text Label 9300 8775 2    50   ~ 0
 SWD
-Text Label 12575 2475 2    50   ~ 0
+Text Label 9300 8875 2    50   ~ 0
 GND
-Text Label 12575 2575 2    50   ~ 0
+Text Label 9300 8975 2    50   ~ 0
 3.3V
 Text Label 14050 1200 0    50   ~ 0
 BAT+
@@ -2028,14 +2028,14 @@ Wire Wire Line
 Wire Wire Line
 	12750 4450 13150 4450
 $Comp
-L Connector_Generic:Conn_01x05 SWD1
+L Connector_Generic:Conn_01x05 JP?
 U 1 1 5C1CF656
-P 12775 2375
-F 0 "SWD1" H 12855 2417 50  0000 L CNN
-F 1 "SWD_conn" H 12855 2326 50  0000 L CNN
-F 2 "kbd:connector_swd" H 12775 2375 50  0001 C CNN
-F 3 "~" H 12775 2375 50  0001 C CNN
-	1    12775 2375
+P 9500 8775
+F 0 "JP?" H 9580 8817 50  0000 L CNN
+F 1 "SWD_conn" H 9580 8726 50  0000 L CNN
+F 2 "kbd:connector_swd" H 9500 8775 50  0001 C CNN
+F 3 "~" H 9500 8775 50  0001 C CNN
+	1    9500 8775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2088,7 +2088,7 @@ L Device:Jumper_NO_Small JP1
 U 1 1 5C4D6698
 P 12875 1025
 F 0 "JP1" H 12875 1105 50  0000 C CNN
-F 1 "B+" H 12885 965 50  0000 C CNN
+F 1 "BAT+" H 12885 965 50  0000 C CNN
 F 2 "kbd:jumper" H 12875 1025 50  0001 C CNN
 F 3 "" H 12875 1025 50  0001 C CNN
 	1    12875 1025
@@ -2099,7 +2099,7 @@ L Device:Jumper_NO_Small JP10
 U 1 1 5C4D669F
 P 12875 1375
 F 0 "JP10" H 12875 1455 50  0000 C CNN
-F 1 "B-" H 12885 1315 50  0000 C CNN
+F 1 "BAT-" H 12885 1315 50  0000 C CNN
 F 2 "kbd:jumper" H 12875 1375 50  0001 C CNN
 F 3 "" H 12875 1375 50  0001 C CNN
 	1    12875 1375
@@ -2541,7 +2541,7 @@ $EndComp
 Text GLabel 8000 9500 0    50   Input ~ 0
 5V
 Text GLabel 8525 8850 2    50   Input ~ 0
-VCC
+3.3V
 Text GLabel 7800 8425 0    50   Input ~ 0
 5V
 Text GLabel 8075 8425 2    50   Input ~ 0
