@@ -10,7 +10,7 @@ Component | Package&nbsp;&nbsp; | Marked | Manufacturer Name | Source
 ---|---|---|---|---
 nRF51822 | SMD | YJ-14015, Core51822(B) | nRF51822 BLE Cortex-M0-based Bluetooth MCU| Aliexpress, Ebay
 Schottky diode | SOD523 | S4, B2 | 1PS76SB40, PMEG6010CEH | Arduino boards
-Voltage regulator | SOT-23-5 | DE=1AD, S80E, F34V | RT9193-33GB 300mA, Ultra-Low Noise, Ultra-Fast CMOS LDO Regulator | Arduino boards (check that it's 3.3v not 5v regulator!)
+Voltage regulator | SOT-23-5 | DE=1AD, S80E, F34V, AP2127K | RT9193-33GB 300mA, Ultra-Low Noise, Ultra-Fast CMOS LDO Regulator | Arduino boards (check that it's 3.3v not 5v regulator!)
 MOSFET-P ?? probably not | SOT-23-3 | J1Y | KSA1298-Y Bipolar Transistor, p-n-p | Arduino boards, level shifters
 MOSFET-P | SOT-23-3 | IRML6402, DMG3415UDICT-ND | IRML6402 20V Single P-Channel HEXFET Power MOSFET in a Micro 3 package | Aliexpress
 MOSFET-N | SOT-23-3 | Si2302 (or similar low voltage nFET) (AO3400, AO3402, AO3406A, STS4300, UT3400, UT3404, UT6402) | Si2302 MOSFET 20V 3A N-polarity | [ebay](http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR1.TRC0.A0.H0.Xsi2302.TRS0&_nkw=si2302&_sacat=0), [digikey](https://www.digikey.com/product-detail/en/vishay-siliconix/SI2302CDS-T1-E3/SI2302CDS-T1-E3CT-ND/3305362)

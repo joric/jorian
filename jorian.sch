@@ -157,94 +157,90 @@ NoConn ~ 1250 3900
 NoConn ~ 1250 7200
 NoConn ~ 1250 7300
 $Comp
-L Connector_Generic:Conn_01x05 E16
+L Connector_Generic:Conn_01x04 E16
 U 1 1 5C28A7CD
-P 15100 3950
-F 0 "E16" H 15100 4250 50  0000 C CNN
-F 1 "right" H 15100 3650 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15100 3950 50  0001 C CNN
-F 3 "" H 15100 3950 50  0001 C CNN
-	1    15100 3950
+P 15100 3750
+F 0 "E16" H 15100 3950 50  0000 C CNN
+F 1 "right" H 15100 3450 50  0000 C CNN
+F 2 "kbd:edge_conn" H 15100 3750 50  0001 C CNN
+F 3 "" H 15100 3750 50  0001 C CNN
+	1    15100 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 E18
+L Connector_Generic:Conn_01x04 E18
 U 1 1 5C28AA80
-P 14900 3950
-F 0 "E18" H 14900 4250 50  0000 C CNN
-F 1 "left" H 14900 3650 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14900 3950 50  0001 C CNN
-F 3 "" H 14900 3950 50  0001 C CNN
-	1    14900 3950
+P 14900 3750
+F 0 "E18" H 14900 3950 50  0000 C CNN
+F 1 "left" H 14900 3450 50  0000 C CNN
+F 2 "kbd:edge_conn" H 14900 3750 50  0001 C CNN
+F 3 "" H 14900 3750 50  0001 C CNN
+	1    14900 3750
 	1    0    0    -1  
 $EndComp
-Text Label 15300 3750 0    50   ~ 0
+Text Label 15300 3650 0    50   ~ 0
 GND
-Text Label 15300 3850 0    50   ~ 0
+Text Label 15300 3750 0    50   ~ 0
 S18
 Text Label 15300 3950 0    50   ~ 0
 VCC
-Text Label 3150 3000 0    70   ~ 0
-LED_DATA
-Text Label 3150 6600 0    70   ~ 0
-LED_DATA
 $Comp
-L Connector_Generic:Conn_01x05 E19
+L Connector_Generic:Conn_01x04 E19
 U 1 1 5C6E087C
 P 15100 1700
-F 0 "E19" H 15100 2000 50  0000 C CNN
+F 0 "E19" H 15100 1900 50  0000 C CNN
 F 1 "right" H 15100 1400 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15100 1700 50  0001 C CNN
+F 2 "kbd:edge_conn" H 15100 1700 50  0001 C CNN
 F 3 "" H 15100 1700 50  0001 C CNN
 	1    15100 1700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 E5
+L Connector_Generic:Conn_01x04 E5
 U 1 1 5C6E0883
 P 14900 1700
-F 0 "E5" H 14900 2000 50  0000 C CNN
+F 0 "E5" H 14900 1900 50  0000 C CNN
 F 1 "left" H 14900 1400 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14900 1700 50  0001 C CNN
+F 2 "kbd:edge_conn" H 14900 1700 50  0001 C CNN
 F 3 "" H 14900 1700 50  0001 C CNN
 	1    14900 1700
 	1    0    0    -1  
 $EndComp
-Text Label 14700 1500 2    50   ~ 0
-GND
 Text Label 14700 1600 2    50   ~ 0
-S19
+GND
 Text Label 14700 1700 2    50   ~ 0
+S19
+Text Label 14700 1800 2    50   ~ 0
 S20
 Text Label 14700 3100 2    50   ~ 0
 S21
 $Comp
-L Connector_Generic:Conn_01x05 E21
+L Connector_Generic:Conn_01x04 E21
 U 1 1 5C6F2906
-P 15100 3200
-F 0 "E21" H 15100 3500 50  0000 C CNN
-F 1 "right" H 15100 2900 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15100 3200 50  0001 C CNN
-F 3 "" H 15100 3200 50  0001 C CNN
-	1    15100 3200
+P 15100 3100
+F 0 "E21" H 15100 3300 50  0000 C CNN
+F 1 "right" H 15100 2800 50  0000 C CNN
+F 2 "kbd:edge_conn" H 15100 3100 50  0001 C CNN
+F 3 "" H 15100 3100 50  0001 C CNN
+	1    15100 3100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 E15
+L Connector_Generic:Conn_01x04 E15
 U 1 1 5C6F290D
-P 14900 3200
-F 0 "E15" H 14900 3500 50  0000 C CNN
-F 1 "left" H 14900 2900 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14900 3200 50  0001 C CNN
-F 3 "" H 14900 3200 50  0001 C CNN
-	1    14900 3200
+P 14900 3100
+F 0 "E15" H 14900 3300 50  0000 C CNN
+F 1 "left" H 14900 2800 50  0000 C CNN
+F 2 "kbd:edge_conn" H 14900 3100 50  0001 C CNN
+F 3 "" H 14900 3100 50  0001 C CNN
+	1    14900 3100
 	1    0    0    -1  
 $EndComp
 Text Label 14700 3000 2    50   ~ 0
 GND
-Text Label 14700 2350 2    50   ~ 0
+Text Label 14700 2400 2    50   ~ 0
 S22
-Text Label 14700 3200 2    50   ~ 0
+Text Label 14700 3300 2    50   ~ 0
 VCC
 Wire Wire Line
 	1250 5000 1250 4900
@@ -370,39 +366,37 @@ Wire Wire Line
 	3150 5700 2850 5700
 Wire Wire Line
 	3150 2200 2850 2200
-Text Label 15300 4050 0    50   ~ 0
+Text Label 15300 3850 0    50   ~ 0
 DIN18
-NoConn ~ 15300 4150
-Text Label 14700 3850 2    50   ~ 0
-S18_A
 Text Label 14700 3750 2    50   ~ 0
+S18_A
+Text Label 14700 3650 2    50   ~ 0
 GND_A
 Text Label 14700 3950 2    50   ~ 0
 VCC_A
-Text Label 14700 4050 2    50   ~ 0
+Text Label 14700 3850 2    50   ~ 0
 DIN18_A
-NoConn ~ 14700 4150
-Text Label 15300 1500 0    50   ~ 0
-GND_B
 Text Label 15300 1600 0    50   ~ 0
-S19_B
+GND_B
 Text Label 15300 1700 0    50   ~ 0
+S19_B
+Text Label 15300 1800 0    50   ~ 0
 S20_B
 Text Label 15300 3100 0    50   ~ 0
 S21_B
 Text Label 15300 3000 0    50   ~ 0
 GND_B
-Text Label 15300 2350 0    50   ~ 0
+Text Label 15300 2400 0    50   ~ 0
 S22_B
-Text Label 15300 3200 0    50   ~ 0
-VCC_B
 Text Label 15300 3300 0    50   ~ 0
+VCC_B
+Text Label 15300 3200 0    50   ~ 0
 DIN21_B
-Text Label 14700 1800 2    50   ~ 0
+Text Label 14700 1900 2    50   ~ 0
 DIN5
-Text Label 15300 1800 0    50   ~ 0
+Text Label 15300 1900 0    50   ~ 0
 DIN5_B
-Text Label 14700 3300 2    50   ~ 0
+Text Label 14700 3200 2    50   ~ 0
 DIN21
 $Comp
 L Device:Battery_Cell BT1
@@ -417,26 +411,12 @@ F 3 "~" V 14725 1135 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 5600 3150 5600
-Text Label 3150 5600 2    70   ~ 0
-SDA
-Text Label 3150 5700 2    70   ~ 0
-SCL
 Wire Wire Line
 	2850 2300 3150 2300
-Text Label 3150 2200 2    70   ~ 0
-SDA
-Text Label 3150 2300 2    70   ~ 0
-SCL
-Text Label 13100 2800 2    50   ~ 0
-GND
 Text Label 14725 875  0    50   ~ 0
-VCC
+BAT+
 Text Label 14725 1175 0    50   ~ 0
 GND
-Text Label 3150 3100 2    70   ~ 0
-TX
-Text Label 3150 6500 2    70   ~ 0
-TX
 Text Label 1250 1300 2    70   ~ 0
 VCC
 Text Label 1250 1500 2    70   ~ 0
@@ -446,30 +426,30 @@ VCC
 Text Label 1000 5000 2    70   ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_01x05 E20
+L Connector_Generic:Conn_01x04 E20
 U 1 1 5C1C4E7E
-P 15100 2450
-F 0 "E20" H 15100 2750 50  0000 C CNN
-F 1 "right" H 15100 2150 50  0000 C CNN
-F 2 "kbd:edge_conn_right" H 15100 2450 50  0001 C CNN
-F 3 "" H 15100 2450 50  0001 C CNN
-	1    15100 2450
+P 15100 2400
+F 0 "E20" H 15100 2600 50  0000 C CNN
+F 1 "right" H 15100 2100 50  0000 C CNN
+F 2 "kbd:edge_conn" H 15100 2400 50  0001 C CNN
+F 3 "" H 15100 2400 50  0001 C CNN
+	1    15100 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 E10
+L Connector_Generic:Conn_01x04 E10
 U 1 1 5C1C4E85
-P 14900 2450
-F 0 "E10" H 14900 2750 50  0000 C CNN
-F 1 "left" H 14900 2150 50  0000 C CNN
-F 2 "kbd:edge_conn_left" H 14900 2450 50  0001 C CNN
-F 3 "" H 14900 2450 50  0001 C CNN
-	1    14900 2450
+P 14900 2400
+F 0 "E10" H 14900 2600 50  0000 C CNN
+F 1 "left" H 14900 2100 50  0000 C CNN
+F 2 "kbd:edge_conn" H 14900 2400 50  0001 C CNN
+F 3 "" H 14900 2400 50  0001 C CNN
+	1    14900 2400
 	1    0    0    -1  
 $EndComp
-Text Label 14700 2250 2    50   ~ 0
+Text Label 14700 2300 2    50   ~ 0
 GND
-Text Label 15300 2250 0    50   ~ 0
+Text Label 15300 2300 0    50   ~ 0
 GND_B
 Wire Wire Line
 	4700 1750 4700 2350
@@ -1053,8 +1033,6 @@ F 3 "" H 5750 5875 60  0001 C CNN
 	1    5750 5875
 	1    0    0    1   
 $EndComp
-Text Label 4700 5150 0    50   ~ 0
-LED_DATA
 Wire Wire Line
 	6050 5625 6050 5975
 Wire Wire Line
@@ -1497,49 +1475,16 @@ Wire Wire Line
 Wire Wire Line
 	9050 3500 9050 3875
 $Comp
-L Connector_Generic:Conn_01x05 J3
-U 1 1 5C1A65EC
-P 14100 2000
-F 0 "J3" H 14100 2300 50  0000 C CNN
-F 1 "conn_swd" H 14100 1700 50  0000 C CNN
-F 2 "kbd:connector_swd" H 14100 2000 50  0001 C CNN
-F 3 "~" H 14100 2000 50  0001 C CNN
-	1    14100 2000
-	1    0    0    -1  
-$EndComp
-Text Label 13100 3150 2    50   ~ 0
-VCC
-Text Label 13100 3500 2    50   ~ 0
-SCL
-Text Label 13100 3850 2    50   ~ 0
-SDA
-Text Label 13900 1800 2    50   ~ 0
-VCC
-Text Label 13900 1900 2    50   ~ 0
-GND
-Text Label 13900 2000 2    50   ~ 0
-SWD
-Text Label 13900 2100 2    50   ~ 0
-SWC
-Text Label 14050 950  0    50   ~ 0
-GND
-Text Label 13650 950  2    50   ~ 0
-VCC
-$Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5C36F98B
-P 13950 1100
-F 0 "H1" V 13904 1250 50  0000 L CNN
-F 1 "Battery Pad" V 13995 1250 50  0000 L CNN
-F 2 "kbd:battery_pad" H 13950 1100 50  0001 C CNN
-F 3 "~" H 13950 1100 50  0001 C CNN
-	1    13950 1100
-	0    1    1    0   
+P 12525 1025
+F 0 "H1" V 12479 1175 50  0000 L CNN
+F 1 "Battery Pad" V 12570 1175 50  0000 L CNN
+F 2 "kbd:battery_pad" H 12525 1025 50  0001 C CNN
+F 3 "~" H 12525 1025 50  0001 C CNN
+	1    12525 1025
+	0    -1   -1   0   
 $EndComp
-Text Label 13950 1550 2    50   ~ 0
-RX
-Text Label 14150 1550 2    50   ~ 0
-LED
 $Comp
 L power:GND #PWR0103
 U 1 1 5C50901B
@@ -1692,116 +1637,8 @@ Wire Wire Line
 	650  4700 1250 4700
 Wire Wire Line
 	650  5000 1250 5000
-NoConn ~ 15300 1900
-NoConn ~ 14700 1900
-NoConn ~ 15300 2450
-NoConn ~ 15300 2550
-NoConn ~ 15300 2650
-NoConn ~ 14700 2450
-NoConn ~ 14700 2550
-NoConn ~ 14700 2650
-NoConn ~ 15300 3400
-NoConn ~ 14700 3400
-Text Label 13900 2200 2    50   ~ 0
-SWO
-Text Label 13800 1550 2    50   ~ 0
-TX
-Text Label 3150 3100 0    70   ~ 0
-SWO
-Text Label 3150 6500 0    70   ~ 0
-SWO
-$Comp
-L Jumper:SolderJumper_3_Open JP1
-U 1 1 5C66CA00
-P 13850 950
-F 0 "JP1" H 13750 850 50  0000 C CNN
-F 1 "BAT+" H 13850 1060 50  0000 C CNN
-F 2 "kbd:jumper_3way" H 13850 950 50  0001 C CNN
-F 3 "~" H 13850 950 50  0001 C CNN
-	1    13850 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP2
-U 1 1 5C8FCC50
-P 13300 2800
-F 0 "JP2" H 13200 2700 50  0000 C CNN
-F 1 "GND" H 13300 2910 50  0000 C CNN
-F 2 "kbd:jumper_3way" H 13300 2800 50  0001 C CNN
-F 3 "~" H 13300 2800 50  0001 C CNN
-	1    13300 2800
-	1    0    0    -1  
-$EndComp
-Text Label 13500 2800 0    50   ~ 0
-SDA
-$Comp
-L Jumper:SolderJumper_3_Open JP3
-U 1 1 5C9F73CB
-P 13300 3150
-F 0 "JP3" H 13200 3050 50  0000 C CNN
-F 1 "VCC" H 13300 3260 50  0000 C CNN
-F 2 "kbd:jumper_3way" H 13300 3150 50  0001 C CNN
-F 3 "~" H 13300 3150 50  0001 C CNN
-	1    13300 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP4
-U 1 1 5CA07EAF
-P 13300 3500
-F 0 "JP4" H 13200 3400 50  0000 C CNN
-F 1 "SCL" H 13300 3610 50  0000 C CNN
-F 2 "kbd:jumper_3way" H 13300 3500 50  0001 C CNN
-F 3 "~" H 13300 3500 50  0001 C CNN
-	1    13300 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP5
-U 1 1 5CA18914
-P 13300 3850
-F 0 "JP5" H 13200 3750 50  0000 C CNN
-F 1 "SDA" H 13300 3960 50  0000 C CNN
-F 2 "kbd:jumper_3way" H 13300 3850 50  0001 C CNN
-F 3 "~" H 13300 3850 50  0001 C CNN
-	1    13300 3850
-	1    0    0    -1  
-$EndComp
-Text Label 13500 3150 0    50   ~ 0
-SCL
-Text Label 13500 3500 0    50   ~ 0
-VCC
-Text Label 13500 3850 0    50   ~ 0
-GND
-Wire Wire Line
-	13850 4000 13850 3450
-Wire Wire Line
-	13300 4000 13850 4000
-Wire Wire Line
-	13700 3350 13850 3350
-Wire Wire Line
-	13700 3650 13700 3350
-Wire Wire Line
-	13300 3650 13700 3650
-Wire Wire Line
-	13850 3300 13850 3250
-Wire Wire Line
-	13300 3300 13850 3300
-Wire Wire Line
-	13850 2950 13850 3150
-Wire Wire Line
-	13300 2950 13850 2950
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5C1A6404
-P 14050 3250
-F 0 "J2" H 14050 3450 50  0000 C CNN
-F 1 "conn_i2c" H 14050 2950 50  0000 C CNN
-F 2 "kbd:connector_i2c" H 14050 3250 50  0001 C CNN
-F 3 "~" H 14050 3250 50  0001 C CNN
-	1    14050 3250
-	1    0    0    -1  
-$EndComp
+NoConn ~ 15300 2500
+NoConn ~ 14700 2500
 $Comp
 L Graphic:Logo_Open_Hardware_Small G1
 U 1 1 5C1A33F2
@@ -1824,4 +1661,906 @@ F 3 "~" H 16050 2150 50  0001 C CNN
 	1    16050 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5CC007F5
+P 14600 5250
+F 0 "J1" H 14655 5717 50  0000 C CNN
+F 1 "MicroUSB" H 14655 5626 50  0000 C CNN
+F 2 "kbd:usb_micro_custom" H 14750 5200 50  0001 C CNN
+F 3 "~" H 14750 5200 50  0001 C CNN
+	1    14600 5250
+	1    0    0    -1  
+$EndComp
+Text Label 14700 2600 2    50   ~ 0
+VCC
+Text Label 15300 2600 0    50   ~ 0
+VCC_B
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5CD134D6
+P 13850 1100
+F 0 "SW1" H 13850 1385 50  0000 C CNN
+F 1 "SW_SPDT" H 13850 1294 50  0000 C CNN
+F 2 "kbd:switch_MSK-12C02_smd" H 13850 1100 50  0001 C CNN
+F 3 "" H 13850 1100 50  0001 C CNN
+	1    13850 1100
+	1    0    0    -1  
+$EndComp
+Text Label 12575 2175 2    50   ~ 0
+SWO
+Text Label 12575 2275 2    50   ~ 0
+SWC
+Text Label 12575 2375 2    50   ~ 0
+SWD
+Text Label 12575 2475 2    50   ~ 0
+GND
+Text Label 12575 2575 2    50   ~ 0
+3.3V
+Text Label 14050 1200 0    50   ~ 0
+BAT+
+Text Label 14050 1000 0    50   ~ 0
+3.3V
+Text Label 14700 6600 0    50   ~ 0
+5V
+$Comp
+L power:GND #PWR0114
+U 1 1 5CEB98B9
+P 8225 9150
+F 0 "#PWR0114" H 8225 8900 50  0001 C CNN
+F 1 "GND" H 8225 9000 50  0000 C CNN
+F 2 "" H 8225 9150 50  0001 C CNN
+F 3 "" H 8225 9150 50  0001 C CNN
+	1    8225 9150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5CF36EA5
+P 14100 8100
+F 0 "#PWR0115" H 14100 7850 50  0001 C CNN
+F 1 "GND" H 14100 7950 50  0000 C CNN
+F 2 "" H 14100 8100 50  0001 C CNN
+F 3 "" H 14100 8100 50  0001 C CNN
+	1    14100 8100
+	-1   0    0    -1  
+$EndComp
+Text Label 14900 5050 0    50   ~ 0
+5V
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 5CBEE4AC
+P 14100 7200
+F 0 "J2" H 14205 8067 50  0000 C CNN
+F 1 "USB-C" H 14205 7976 50  0000 C CNN
+F 2 "kbd:usb_type_c" H 14250 7200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14250 7200 50  0001 C CNN
+	1    14100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 7100 14700 7200
+Wire Wire Line
+	14700 7300 14700 7400
+Text Label 14700 7150 0    50   ~ 0
+D-
+Text Label 14700 7350 0    50   ~ 0
+D+
+Text Label 14900 5250 0    50   ~ 0
+D+
+Text Label 14900 5350 0    50   ~ 0
+D-
+NoConn ~ 14700 7800
+NoConn ~ 14700 7700
+NoConn ~ 14700 6900
+NoConn ~ 14700 6800
+NoConn ~ 14500 5650
+$Comp
+L power:GND #PWR0117
+U 1 1 5D2020AA
+P 15550 8100
+F 0 "#PWR0117" H 15550 7850 50  0001 C CNN
+F 1 "GND" H 15550 7950 50  0000 C CNN
+F 2 "" H 15550 8100 50  0001 C CNN
+F 3 "" H 15550 8100 50  0001 C CNN
+	1    15550 8100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 7300 16150 7400
+Wire Wire Line
+	16150 7100 16150 7200
+NoConn ~ 15250 5650
+NoConn ~ 15650 5450
+NoConn ~ 15250 8100
+NoConn ~ 16150 7800
+NoConn ~ 16150 7700
+NoConn ~ 16150 6900
+NoConn ~ 16150 6800
+Text Label 15650 5350 0    50   ~ 0
+D-
+Text Label 15650 5250 0    50   ~ 0
+D+
+Text Label 16150 7300 0    50   ~ 0
+D+
+Text Label 16150 7100 0    50   ~ 0
+D-
+Text Label 15650 5050 0    50   ~ 0
+5V
+$Comp
+L Connector:USB_B_Micro J3
+U 1 1 5D07052C
+P 15350 5250
+F 0 "J3" H 15405 5717 50  0000 C CNN
+F 1 "MicroUSB" H 15405 5626 50  0000 C CNN
+F 2 "kbd:usb_micro_custom" H 15500 5200 50  0001 C CNN
+F 3 "~" H 15500 5200 50  0001 C CNN
+	1    15350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J4
+U 1 1 5D04D0D8
+P 15550 7200
+F 0 "J4" H 15655 8067 50  0000 C CNN
+F 1 "USB-C" H 15655 7976 50  0000 C CNN
+F 2 "kbd:usb_type_c" H 15700 7200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 15700 7200 50  0001 C CNN
+	1    15550 7200
+	1    0    0    -1  
+$EndComp
+Text Label 16150 6600 0    50   ~ 0
+5V
+NoConn ~ 14900 5450
+$Comp
+L power:GND #PWR0120
+U 1 1 5C1C7341
+P 12425 7275
+F 0 "#PWR0120" H 12425 7025 50  0001 C CNN
+F 1 "GND" H 12425 7125 50  0000 C CNN
+F 2 "" H 12425 7275 50  0001 C CNN
+F 3 "" H 12425 7275 50  0001 C CNN
+	1    12425 7275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:kbd_MJ-4PP-9 J5
+U 1 1 5C1C7348
+P 11525 7300
+F 0 "J5" H 11525 7450 50  0000 C CNN
+F 1 "MJ-4PP-9" H 11525 7150 50  0000 C CNN
+F 2 "kbd:trrs_connector" H 11800 7475 50  0001 C CNN
+F 3 "" H 11800 7475 50  0001 C CNN
+	1    11525 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 OLED1
+U 1 1 5C1C7267
+P 12400 4650
+F 0 "OLED1" H 12400 4300 50  0000 C CNN
+F 1 "I2C_conn" H 12400 4900 50  0000 C CNN
+F 2 "kbd:connector_i2c" H 12400 4650 50  0001 C CNN
+F 3 "" H 12400 4650 50  0001 C CNN
+	1    12400 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5C1C726E
+P 13300 4450
+F 0 "JP2" H 13300 4530 50  0000 C CNN
+F 1 " " H 13310 4390 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 4450 50  0001 C CNN
+F 3 "" H 13300 4450 50  0001 C CNN
+	1    13300 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5C1C7275
+P 13300 4600
+F 0 "JP3" H 13300 4680 50  0000 C CNN
+F 1 " " H 13310 4540 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 4600 50  0001 C CNN
+F 3 "" H 13300 4600 50  0001 C CNN
+	1    13300 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5C1C727C
+P 13300 4750
+F 0 "JP4" H 13300 4830 50  0000 C CNN
+F 1 " " H 13310 4690 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 4750 50  0001 C CNN
+F 3 "" H 13300 4750 50  0001 C CNN
+	1    13300 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5C1C7283
+P 13300 4900
+F 0 "JP5" H 13300 4980 50  0000 C CNN
+F 1 " " H 13310 4840 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 4900 50  0001 C CNN
+F 3 "" H 13300 4900 50  0001 C CNN
+	1    13300 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5C1C728A
+P 13300 5300
+F 0 "JP6" H 13300 5380 50  0000 C CNN
+F 1 " " H 13310 5240 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 5300 50  0001 C CNN
+F 3 "" H 13300 5300 50  0001 C CNN
+	1    13300 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP7
+U 1 1 5C1C7291
+P 13300 5450
+F 0 "JP7" H 13300 5530 50  0000 C CNN
+F 1 " " H 13310 5390 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 5450 50  0001 C CNN
+F 3 "" H 13300 5450 50  0001 C CNN
+	1    13300 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5C1C7298
+P 13300 5600
+F 0 "JP8" H 13300 5680 50  0000 C CNN
+F 1 " " H 13310 5540 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 5600 50  0001 C CNN
+F 3 "" H 13300 5600 50  0001 C CNN
+	1    13300 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP9
+U 1 1 5C1C729F
+P 13300 5750
+F 0 "JP9" H 13300 5830 50  0000 C CNN
+F 1 " " H 13310 5690 50  0000 C CNN
+F 2 "kbd:jumper" H 13300 5750 50  0001 C CNN
+F 3 "" H 13300 5750 50  0001 C CNN
+	1    13300 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5C1C72A6
+P 13550 4450
+F 0 "#PWR0121" H 13550 4200 50  0001 C CNN
+F 1 "GND" H 13550 4300 50  0000 C CNN
+F 2 "" H 13550 4450 50  0001 C CNN
+F 3 "" H 13550 4450 50  0001 C CNN
+	1    13550 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5C1C72AC
+P 13550 5750
+F 0 "#PWR0122" H 13550 5500 50  0001 C CNN
+F 1 "GND" H 13550 5600 50  0000 C CNN
+F 2 "" H 13550 5750 50  0001 C CNN
+F 3 "" H 13550 5750 50  0001 C CNN
+	1    13550 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0123
+U 1 1 5C1C72B2
+P 13550 4600
+F 0 "#PWR0123" H 13550 4450 50  0001 C CNN
+F 1 "VCC" H 13550 4750 50  0000 C CNN
+F 2 "" H 13550 4600 50  0001 C CNN
+F 3 "" H 13550 4600 50  0001 C CNN
+	1    13550 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0124
+U 1 1 5C1C72B8
+P 13550 5600
+F 0 "#PWR0124" H 13550 5450 50  0001 C CNN
+F 1 "VCC" H 13550 5750 50  0000 C CNN
+F 2 "" H 13550 5600 50  0001 C CNN
+F 3 "" H 13550 5600 50  0001 C CNN
+	1    13550 5600
+	0    1    1    0   
+$EndComp
+Text GLabel 13400 4750 2    60   Input ~ 0
+SCL
+Text GLabel 13400 5450 2    60   Input ~ 0
+SCL
+Text GLabel 13400 4900 2    60   Input ~ 0
+SDA
+Text GLabel 13400 5300 2    60   Input ~ 0
+SDA
+Wire Wire Line
+	13400 4600 13550 4600
+Wire Wire Line
+	13400 4450 13550 4450
+Wire Wire Line
+	13400 5750 13550 5750
+Wire Wire Line
+	13400 5600 13550 5600
+Connection ~ 12600 4900
+Connection ~ 12650 4750
+Connection ~ 12700 4600
+Connection ~ 12750 4450
+Wire Wire Line
+	12750 5300 13200 5300
+Wire Wire Line
+	12750 4450 12750 5300
+Wire Wire Line
+	12600 4450 12750 4450
+Wire Wire Line
+	12700 5450 13200 5450
+Wire Wire Line
+	12700 4550 12700 4600
+Wire Wire Line
+	12600 4550 12700 4550
+Wire Wire Line
+	12650 5600 13200 5600
+Wire Wire Line
+	12650 4650 12650 4750
+Wire Wire Line
+	12600 4650 12650 4650
+Wire Wire Line
+	12600 5750 13200 5750
+Wire Wire Line
+	12600 4750 12600 4900
+Wire Wire Line
+	12600 4900 12600 5750
+Wire Wire Line
+	12650 4750 12650 5600
+Wire Wire Line
+	12700 4600 12700 5450
+Wire Wire Line
+	12750 4450 13150 4450
+$Comp
+L Connector_Generic:Conn_01x05 SWD1
+U 1 1 5C1CF656
+P 12775 2375
+F 0 "SWD1" H 12855 2417 50  0000 L CNN
+F 1 "SWD_conn" H 12855 2326 50  0000 L CNN
+F 2 "kbd:connector_swd" H 12775 2375 50  0001 C CNN
+F 3 "~" H 12775 2375 50  0001 C CNN
+	1    12775 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 OLED2
+U 1 1 5C296003
+P 12400 3850
+F 0 "OLED2" H 12400 3500 50  0000 C CNN
+F 1 "I2C_conn" H 12400 4100 50  0000 C CNN
+F 2 "kbd:connector_i2c" H 12400 3850 50  0001 C CNN
+F 3 "" H 12400 3850 50  0001 C CNN
+	1    12400 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12600 4900 13000 4900
+Wire Wire Line
+	12650 4750 13050 4750
+Wire Wire Line
+	12700 4600 13100 4600
+Wire Wire Line
+	12600 3650 13150 3650
+Wire Wire Line
+	13150 3650 13150 4450
+Connection ~ 13150 4450
+Wire Wire Line
+	13150 4450 13200 4450
+Wire Wire Line
+	12600 3750 13100 3750
+Wire Wire Line
+	13100 3750 13100 4600
+Connection ~ 13100 4600
+Wire Wire Line
+	13100 4600 13200 4600
+Wire Wire Line
+	12600 3850 13050 3850
+Wire Wire Line
+	13050 3850 13050 4750
+Connection ~ 13050 4750
+Wire Wire Line
+	13050 4750 13200 4750
+Wire Wire Line
+	12600 3950 13000 3950
+Wire Wire Line
+	13000 3950 13000 4900
+Connection ~ 13000 4900
+Wire Wire Line
+	13000 4900 13200 4900
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5C4D6698
+P 12875 1025
+F 0 "JP1" H 12875 1105 50  0000 C CNN
+F 1 "B+" H 12885 965 50  0000 C CNN
+F 2 "kbd:jumper" H 12875 1025 50  0001 C CNN
+F 3 "" H 12875 1025 50  0001 C CNN
+	1    12875 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP10
+U 1 1 5C4D669F
+P 12875 1375
+F 0 "JP10" H 12875 1455 50  0000 C CNN
+F 1 "B-" H 12885 1315 50  0000 C CNN
+F 2 "kbd:jumper" H 12875 1375 50  0001 C CNN
+F 3 "" H 12875 1375 50  0001 C CNN
+	1    12875 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5C4D66A6
+P 13125 1375
+F 0 "#PWR0125" H 13125 1125 50  0001 C CNN
+F 1 "GND" H 13125 1225 50  0000 C CNN
+F 2 "" H 13125 1375 50  0001 C CNN
+F 3 "" H 13125 1375 50  0001 C CNN
+	1    13125 1375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0126
+U 1 1 5C4D66AC
+P 13125 1025
+F 0 "#PWR0126" H 13125 875 50  0001 C CNN
+F 1 "VCC" H 13125 1175 50  0000 C CNN
+F 2 "" H 13125 1025 50  0001 C CNN
+F 3 "" H 13125 1025 50  0001 C CNN
+	1    13125 1025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12975 1375 13125 1375
+Wire Wire Line
+	12975 1025 13125 1025
+Wire Wire Line
+	12775 1025 12675 1025
+Wire Wire Line
+	12775 1375 12675 1375
+Wire Wire Line
+	12675 1375 12675 1025
+Connection ~ 12675 1025
+Wire Wire Line
+	12675 1025 12625 1025
+Text GLabel 12150 7500 2    50   Input ~ 0
+TX
+Text GLabel 12150 7625 2    50   Input ~ 0
+RX
+Text GLabel 3150 6300 2    50   Input ~ 0
+TX
+Text GLabel 3150 6100 2    50   Input ~ 0
+RX
+Text GLabel 3150 3300 2    50   Input ~ 0
+TX
+Text GLabel 3150 3600 2    50   Input ~ 0
+RX
+Text GLabel 3150 3100 2    50   Input ~ 0
+SWO
+Text GLabel 3150 6500 2    50   Input ~ 0
+SWO
+Text GLabel 3150 6600 2    50   Input ~ 0
+LED_DATA
+Text GLabel 3150 3000 2    50   Input ~ 0
+LED_DATA
+Text GLabel 3150 5700 2    50   Input ~ 0
+SCL
+Text GLabel 3150 5600 2    50   Input ~ 0
+SDA
+Text GLabel 3150 2200 2    50   Input ~ 0
+SDA
+Text GLabel 3150 2300 2    50   Input ~ 0
+SCL
+$Comp
+L Device:Jumper_NO_Small JP12
+U 1 1 5CCA9F02
+P 12100 6800
+F 0 "JP12" H 12100 6880 50  0000 C CNN
+F 1 "GND" H 12110 6740 50  0000 C CNN
+F 2 "kbd:jumper" H 12100 6800 50  0001 C CNN
+F 3 "" H 12100 6800 50  0001 C CNN
+	1    12100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0119
+U 1 1 5C1C733B
+P 12425 7025
+F 0 "#PWR0119" H 12425 6875 50  0001 C CNN
+F 1 "VCC" H 12425 7175 50  0000 C CNN
+F 2 "" H 12425 7025 50  0001 C CNN
+F 3 "" H 12425 7025 50  0001 C CNN
+	1    12425 7025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12150 7500 11925 7500
+Wire Wire Line
+	11725 7225 11825 7225
+Wire Wire Line
+	11725 7375 11825 7375
+Wire Wire Line
+	11725 7325 11925 7325
+Wire Wire Line
+	11925 7325 11925 7500
+Wire Wire Line
+	11825 7375 11825 7625
+Wire Wire Line
+	11825 7625 12150 7625
+$Comp
+L Device:Jumper_NO_Small JP11
+U 1 1 5D9843E4
+P 12100 6550
+F 0 "JP11" H 12100 6630 50  0000 C CNN
+F 1 "VCC" H 12110 6490 50  0000 C CNN
+F 2 "kbd:jumper" H 12100 6550 50  0001 C CNN
+F 3 "" H 12100 6550 50  0001 C CNN
+	1    12100 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11725 7275 11925 7275
+$Comp
+L Device:Jumper_NO_Small JP14
+U 1 1 5E1B7A97
+P 12100 7275
+F 0 "JP14" H 12100 7355 50  0000 C CNN
+F 1 "GND" H 12110 7215 50  0000 C CNN
+F 2 "kbd:jumper" H 12100 7275 50  0001 C CNN
+F 3 "" H 12100 7275 50  0001 C CNN
+	1    12100 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP13
+U 1 1 5E1B7A9E
+P 12100 7025
+F 0 "JP13" H 12100 7105 50  0000 C CNN
+F 1 "VCC" H 12110 6965 50  0000 C CNN
+F 2 "kbd:jumper" H 12100 7025 50  0001 C CNN
+F 3 "" H 12100 7025 50  0001 C CNN
+	1    12100 7025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 6800 11825 6800
+Wire Wire Line
+	11825 6800 11825 7225
+Wire Wire Line
+	12350 7025 12350 6550
+Wire Wire Line
+	12350 6550 12200 6550
+Wire Wire Line
+	12200 7025 12350 7025
+Wire Wire Line
+	12200 6800 12250 6800
+Wire Wire Line
+	12250 6800 12250 7275
+Wire Wire Line
+	12250 7275 12425 7275
+Wire Wire Line
+	12200 7275 12250 7275
+Connection ~ 12250 7275
+Connection ~ 12350 7025
+Wire Wire Line
+	12350 7025 12425 7025
+$Comp
+L power:VCC #PWR0127
+U 1 1 5E714A3D
+P 13650 1100
+F 0 "#PWR0127" H 13650 950 50  0001 C CNN
+F 1 "VCC" H 13650 1250 50  0000 C CNN
+F 2 "" H 13650 1100 50  0001 C CNN
+F 3 "" H 13650 1100 50  0001 C CNN
+	1    13650 1100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 13800 8100
+$Comp
+L power:GND #PWR0116
+U 1 1 5CF48AD8
+P 14600 5650
+F 0 "#PWR0116" H 14600 5400 50  0001 C CNN
+F 1 "GND" H 14600 5500 50  0000 C CNN
+F 2 "" H 14600 5650 50  0001 C CNN
+F 3 "" H 14600 5650 50  0001 C CNN
+	1    14600 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5D070533
+P 15350 5650
+F 0 "#PWR0118" H 15350 5400 50  0001 C CNN
+F 1 "GND" H 15350 5500 50  0000 C CNN
+F 2 "" H 15350 5650 50  0001 C CNN
+F 3 "" H 15350 5650 50  0001 C CNN
+	1    15350 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 6550 11825 6550
+Wire Wire Line
+	11825 6550 11825 6800
+Connection ~ 11825 6800
+Wire Wire Line
+	12000 7025 11925 7025
+Wire Wire Line
+	11925 7025 11925 7275
+Connection ~ 11925 7275
+Wire Wire Line
+	11925 7275 12000 7275
+Text GLabel 4700 5150 2    50   Input ~ 0
+LED_DATA
+$Comp
+L kbd:DW01A U5
+U 1 1 5C1D136B
+P 5750 8950
+F 0 "U5" H 5750 9050 50  0000 C CNN
+F 1 "DW01A" H 5750 8950 50  0000 C CNN
+F 2 "kbd:SOT-23-6" H 5750 9050 50  0001 C CNN
+F 3 "" H 5750 9050 50  0001 C CNN
+	1    5750 8950
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 9400 0    50   Input ~ 0
+IN+
+Text GLabel 3900 10000 0    50   Input ~ 0
+IN-
+Text GLabel 6900 9750 2    50   Input ~ 0
+B-
+Text GLabel 6900 8800 2    50   Input ~ 0
+B+
+Text GLabel 6900 8500 2    50   Input ~ 0
+OUT+
+Text GLabel 6900 10000 2    50   Input ~ 0
+OUT-
+Wire Wire Line
+	6900 8500 6800 8500
+$Comp
+L Device:R R3
+U 1 1 5C1D1379
+P 6550 8800
+F 0 "R3" V 6630 8800 50  0000 C CNN
+F 1 "100" V 6550 8800 50  0000 C CNN
+F 2 "kbd:R_0805" V 6480 8800 50  0001 C CNN
+F 3 "~" H 6550 8800 50  0001 C CNN
+	1    6550 8800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 8800 6800 8800
+Connection ~ 6800 8800
+Wire Wire Line
+	6800 8800 6900 8800
+Wire Wire Line
+	6800 8800 6800 8500
+Wire Wire Line
+	6800 8500 5000 8500
+$Comp
+L Device:C C4
+U 1 1 5C1D1385
+P 6300 8950
+F 0 "C4" H 6325 9050 50  0000 L CNN
+F 1 "0.1uF" H 6325 8850 50  0000 L CNN
+F 2 "kbd:C_0805" H 6338 8800 50  0001 C CNN
+F 3 "~" H 6300 8950 50  0001 C CNN
+	1    6300 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C1D138C
+P 5200 9250
+F 0 "R2" V 5280 9250 50  0000 C CNN
+F 1 "1K" V 5200 9250 50  0000 C CNN
+F 2 "kbd:R_0805" V 5130 9250 50  0001 C CNN
+F 3 "~" H 5200 9250 50  0001 C CNN
+	1    5200 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C1D1393
+P 5000 9600
+F 0 "R1" V 5080 9600 50  0000 C CNN
+F 1 "1.2K" V 5000 9600 50  0000 C CNN
+F 2 "kbd:R_0805" V 4930 9600 50  0001 C CNN
+F 3 "~" H 5000 9600 50  0001 C CNN
+	1    5000 9600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 10000
+$Comp
+L Device:C C3
+U 1 1 5C1D139B
+P 4000 9700
+F 0 "C3" H 4025 9800 50  0000 L CNN
+F 1 "0.1uF" H 4025 9600 50  0000 L CNN
+F 2 "kbd:C_0805" H 4038 9550 50  0001 C CNN
+F 3 "~" H 4000 9700 50  0001 C CNN
+	1    4000 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 9250 5900 9300
+Wire Wire Line
+	5600 9250 5600 9300
+$Comp
+L Device:C C5
+U 1 1 5C1D13A4
+P 6800 9300
+F 0 "C5" H 6825 9400 50  0000 L CNN
+F 1 "10uF" H 6825 9200 50  0000 L CNN
+F 2 "kbd:C_0805" H 6838 9150 50  0001 C CNN
+F 3 "~" H 6800 9300 50  0001 C CNN
+	1    6800 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 8800 6800 9150
+Wire Wire Line
+	6800 10000 6900 10000
+Wire Wire Line
+	5200 10000 6800 10000
+Wire Wire Line
+	5000 10000 5200 10000
+Wire Wire Line
+	3900 10000 4000 10000
+Wire Wire Line
+	4000 9850 4000 10000
+Connection ~ 4000 10000
+$Comp
+L kbd:TP4056 U4
+U 1 1 5C1D13B2
+P 4550 8950
+F 0 "U4" H 4550 9000 60  0000 C CNN
+F 1 "TP4056" H 4550 8900 60  0000 C CNN
+F 2 "kbd:SOP-8" H 4650 9700 60  0001 C CNN
+F 3 "" H 4650 9700 60  0001 C CNN
+	1    4550 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 9150 4100 9400
+Wire Wire Line
+	4000 10000 4500 10000
+Wire Wire Line
+	5000 9150 5000 9450
+NoConn ~ 4100 8500
+Wire Wire Line
+	4600 9700 4500 9700
+Connection ~ 4500 10000
+Wire Wire Line
+	4500 10000 5000 10000
+NoConn ~ 5250 8800
+Wire Wire Line
+	5250 9100 5200 9100
+Wire Wire Line
+	3900 9400 4000 9400
+Connection ~ 4000 9400
+Wire Wire Line
+	4000 9400 4100 9400
+Wire Notes Line
+	3600 10150 7200 10150
+Wire Notes Line
+	7200 10150 7200 8300
+Wire Notes Line
+	7200 8300 3600 8300
+Wire Notes Line
+	3600 8300 3600 10150
+Text Notes 3650 8400 0    50   ~ 0
+LiPo Charger
+$Comp
+L kbd:FS8205A U6
+U 1 1 5C1D13CA
+P 5750 9600
+F 0 "U6" H 5750 9650 50  0000 C CNN
+F 1 "FS8205A" H 5750 9550 50  0000 C CNN
+F 2 "kbd:TSSOP-8" H 5750 10000 50  0001 C CNN
+F 3 "" H 5750 10000 50  0001 C CNN
+	1    5750 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 9100 6300 9100
+Wire Wire Line
+	6300 9750 6300 9600
+Wire Wire Line
+	6300 9750 6900 9750
+Connection ~ 6300 9100
+Wire Wire Line
+	6300 8800 6250 8800
+Wire Wire Line
+	6800 9450 6800 10000
+Wire Wire Line
+	4000 9400 4000 9550
+Wire Wire Line
+	4500 9700 4500 10000
+Wire Wire Line
+	5000 9750 5000 10000
+NoConn ~ 4100 8750
+Connection ~ 4500 9700
+Connection ~ 4100 9400
+Wire Wire Line
+	6400 8800 6300 8800
+Connection ~ 6300 8800
+Connection ~ 5200 10000
+Connection ~ 6300 9750
+Connection ~ 6800 8500
+Connection ~ 6800 10000
+Wire Wire Line
+	6250 9750 6300 9750
+Wire Wire Line
+	5200 9400 5200 9600
+Wire Wire Line
+	6250 9600 6300 9600
+Connection ~ 6300 9600
+Wire Wire Line
+	6300 9600 6300 9100
+Wire Wire Line
+	5250 9600 5200 9600
+Connection ~ 5200 9600
+Wire Wire Line
+	5200 9600 5200 9750
+Wire Wire Line
+	5250 9750 5200 9750
+Connection ~ 5200 9750
+Wire Wire Line
+	5200 9750 5200 10000
+NoConn ~ 5700 9300
+NoConn ~ 5800 9300
+$Comp
+L Regulator_Linear:AMS1117 U3
+U 1 1 5C1CA794
+P 8225 8850
+F 0 "U3" H 8225 9092 50  0000 C CNN
+F 1 "AMS1117" H 8225 9001 50  0000 C CNN
+F 2 "kbd:SOT-223-3" H 8225 9050 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8325 8600 50  0001 C CNN
+	1    8225 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 9500 0    50   Input ~ 0
+5V
+Text GLabel 8525 8850 2    50   Input ~ 0
+VCC
+Text GLabel 7800 8425 0    50   Input ~ 0
+5V
+Text GLabel 8075 8425 2    50   Input ~ 0
+IN+
+$Comp
+L Device:Jumper_NO_Small JP15
+U 1 1 5C2BFB5C
+P 8100 9500
+F 0 "JP15" H 8100 9580 50  0000 C CNN
+F 1 "SKIP" H 8110 9440 50  0000 C CNN
+F 2 "kbd:jumper" H 8100 9500 50  0001 C CNN
+F 3 "" H 8100 9500 50  0001 C CNN
+	1    8100 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7925 8850 0    50   Input ~ 0
+OUT+
+Wire Wire Line
+	7800 8425 8075 8425
+Text GLabel 8200 9500 2    50   Input ~ 0
+OUT+
 $EndSCHEMATC
