@@ -54,6 +54,22 @@ Make YJ-14015 mounting area detachable (tearable) from the board in case we don'
 I2C slot overlaps SWD slot, how to connect both display and SWD ??? Fix the overlap? | No. You don't really need that since there's no realtime debugging anyway.
 Add mounting holes for people that cut acrylic cases | Fine.
 
+## TRRS
 
+```
+jian:
+
+SCL - T
+SDA - R
+GND - R
+VCC - S
+
+keebio:
+
+T - VCC
+R - SCL
+R - SDA
+S - GND
+```
 
 
