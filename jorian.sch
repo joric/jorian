@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:jorian-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -1728,7 +1728,7 @@ $EndComp
 Text Label 14900 5050 0    50   ~ 0
 5V
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J2
+L jorian-rescue:USB_C_Receptacle_USB2.0-Connector J2
 U 1 1 5CBEE4AC
 P 14100 7200
 F 0 "J2" H 14205 8067 50  0000 C CNN
@@ -1799,7 +1799,7 @@ F 3 "~" H 15500 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J4
+L jorian-rescue:USB_C_Receptacle_USB2.0-Connector J4
 U 1 1 5D04D0D8
 P 15550 7200
 F 0 "J4" H 15655 8067 50  0000 C CNN
