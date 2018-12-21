@@ -1729,17 +1729,9 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14250 7
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 7100 14700 7200
+	14700 7100 14700 7150
 Wire Wire Line
-	14700 7300 14700 7400
-Text Label 14700 7150 0    50   ~ 0
-D-
-Text Label 14700 7350 0    50   ~ 0
-D+
-Text Label 14900 5250 0    50   ~ 0
-D+
-Text Label 14900 5350 0    50   ~ 0
-D-
+	14700 7300 14700 7350
 NoConn ~ 14700 7800
 NoConn ~ 14700 7700
 NoConn ~ 14700 6900
@@ -1767,14 +1759,6 @@ NoConn ~ 16150 7800
 NoConn ~ 16150 7700
 NoConn ~ 16150 6900
 NoConn ~ 16150 6800
-Text Label 15650 5350 0    50   ~ 0
-D-
-Text Label 15650 5250 0    50   ~ 0
-D+
-Text Label 16150 7300 0    50   ~ 0
-D+
-Text Label 16150 7100 0    50   ~ 0
-D-
 Text Label 15650 5050 0    50   ~ 0
 VUSB
 $Comp
@@ -2591,9 +2575,9 @@ Wire Wire Line
 Connection ~ 3950 7750
 Wire Wire Line
 	3950 7750 4050 7750
-Text GLabel 12875 7650 2    50   Input ~ 0
+Text GLabel 12425 7650 2    50   Input ~ 0
 D+
-Text GLabel 12875 7900 2    50   Input ~ 0
+Text GLabel 12425 7900 2    50   Input ~ 0
 D-
 $Comp
 L Device:Jumper_NO_Small JP22
@@ -2641,12 +2625,12 @@ F 1 "GND" H 11500 8250 50  0000 C CNN
 F 2 "" H 11500 8400 50  0001 C CNN
 F 3 "" H 11500 8400 50  0001 C CNN
 	1    11500 8400
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11500 8300 11500 8400
 Wire Wire Line
-	12200 7900 12875 7900
+	12200 7900 12425 7900
 $Comp
 L Device:Jumper_NO_Small JP24
 U 1 1 5F4F8043
@@ -2683,18 +2667,16 @@ $EndComp
 $Comp
 L power:GND #PWR0126
 U 1 1 5F65E379
-P 11850 8425
-F 0 "#PWR0126" H 11850 8175 50  0001 C CNN
-F 1 "GND" H 11850 8275 50  0000 C CNN
-F 2 "" H 11850 8425 50  0001 C CNN
-F 3 "" H 11850 8425 50  0001 C CNN
-	1    11850 8425
+P 11850 8400
+F 0 "#PWR0126" H 11850 8150 50  0001 C CNN
+F 1 "GND" H 11850 8250 50  0000 C CNN
+F 2 "" H 11850 8400 50  0001 C CNN
+F 3 "" H 11850 8400 50  0001 C CNN
+	1    11850 8400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	11850 8300 11850 8425
-Wire Wire Line
-	12200 7650 12875 7650
+	12200 7650 12425 7650
 Wire Wire Line
 	11925 7375 11925 7275
 Connection ~ 11925 7275
@@ -2804,4 +2786,37 @@ Text GLabel 9000 8450 0    50   Input ~ 0
 VCC
 Text GLabel 7600 9200 0    50   Input ~ 0
 BAT+
+NoConn ~ 8000 9100
+Text GLabel 14800 7150 2    50   Input ~ 0
+D-
+Text GLabel 14800 7350 2    50   Input ~ 0
+D+
+Wire Wire Line
+	14700 7150 14800 7150
+Connection ~ 14700 7150
+Wire Wire Line
+	14700 7150 14700 7200
+Wire Wire Line
+	14700 7350 14800 7350
+Connection ~ 14700 7350
+Wire Wire Line
+	14700 7350 14700 7400
+Text GLabel 16250 7150 2    50   Input ~ 0
+D-
+Text GLabel 16250 7350 2    50   Input ~ 0
+D+
+Wire Wire Line
+	16150 7150 16250 7150
+Wire Wire Line
+	16150 7350 16250 7350
+Text GLabel 14900 5250 2    50   Input ~ 0
+D+
+Text GLabel 14900 5350 2    50   Input ~ 0
+D-
+Text GLabel 15650 5350 2    50   Input ~ 0
+D-
+Text GLabel 15650 5250 2    50   Input ~ 0
+D+
+Wire Wire Line
+	11850 8300 11850 8400
 $EndSCHEMATC
