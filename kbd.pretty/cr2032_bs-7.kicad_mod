@@ -1,4 +1,4 @@
-(module cr2032_bs-7 (layer F.Cu) (tedit 5C208A83)
+(module cr2032_bs-7 (layer F.Cu) (tedit 5C20BF3E)
   (descr http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf)
   (fp_text reference BT1 (at 0.015129 0.635 180) (layer Dwgs.User)
     (effects (font (size 1 1) (thickness 0.15)))
