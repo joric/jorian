@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:jorian-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -1691,19 +1691,6 @@ Text Label 9000 8250 2    50   ~ 0
 SWD
 Text Label 9000 8350 2    50   ~ 0
 GND
-Text Label 14700 6600 0    50   ~ 0
-VUSB
-$Comp
-L power:GND #PWR0114
-U 1 1 5CEB98B9
-P 6150 8600
-F 0 "#PWR0114" H 6150 8350 50  0001 C CNN
-F 1 "GND" H 6150 8450 50  0000 C CNN
-F 2 "" H 6150 8600 50  0001 C CNN
-F 3 "" H 6150 8600 50  0001 C CNN
-	1    6150 8600
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5CF36EA5
@@ -1783,8 +1770,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 15700 7
 	1    15550 7200
 	1    0    0    -1  
 $EndComp
-Text Label 16150 6600 0    50   ~ 0
-VUSB
 NoConn ~ 14900 5450
 $Comp
 L power:GND #PWR0120
@@ -1999,8 +1984,6 @@ Wire Wire Line
 	14600 2500 14600 3350
 Wire Wire Line
 	14650 2350 14650 3200
-Wire Wire Line
-	14700 2200 15100 2200
 $Comp
 L Connector_Generic:Conn_01x05 JP16
 U 1 1 5C1CF656
@@ -2012,51 +1995,6 @@ F 3 "~" H 9200 8250 50  0001 C CNN
 	1    9200 8250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 OLED2
-U 1 1 5C296003
-P 14350 1600
-F 0 "OLED2" H 14350 1250 50  0000 C CNN
-F 1 "I2C_conn" H 14350 1850 50  0000 C CNN
-F 2 "kbd:connector_i2c" H 14350 1600 50  0001 C CNN
-F 3 "" H 14350 1600 50  0001 C CNN
-	1    14350 1600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14550 2650 14950 2650
-Wire Wire Line
-	14600 2500 15000 2500
-Wire Wire Line
-	14650 2350 15050 2350
-Wire Wire Line
-	14550 1400 15100 1400
-Wire Wire Line
-	15100 1400 15100 2200
-Connection ~ 15100 2200
-Wire Wire Line
-	15100 2200 15150 2200
-Wire Wire Line
-	14550 1500 15050 1500
-Wire Wire Line
-	15050 1500 15050 2350
-Connection ~ 15050 2350
-Wire Wire Line
-	15050 2350 15150 2350
-Wire Wire Line
-	14550 1600 15000 1600
-Wire Wire Line
-	15000 1600 15000 2500
-Connection ~ 15000 2500
-Wire Wire Line
-	15000 2500 15150 2500
-Wire Wire Line
-	14550 1700 14950 1700
-Wire Wire Line
-	14950 1700 14950 2650
-Connection ~ 14950 2650
-Wire Wire Line
-	14950 2650 15150 2650
 $Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 5C4D6698
@@ -2228,274 +2166,26 @@ Wire Wire Line
 	13200 2075 13275 2075
 Text GLabel 4700 5150 2    50   Input ~ 0
 LED_DATA
-$Comp
-L kbd:DW01A U5
-U 1 1 5C1D136B
-P 3575 8925
-F 0 "U5" H 3575 9025 50  0000 C CNN
-F 1 "DW01A" H 3575 8925 50  0000 C CNN
-F 2 "kbd:SOT-23-6" H 3575 9025 50  0001 C CNN
-F 3 "" H 3575 9025 50  0001 C CNN
-	1    3575 8925
-	1    0    0    -1  
-$EndComp
-Text GLabel 1325 9375 0    50   Input ~ 0
+Text GLabel 4050 8250 0    50   Input ~ 0
 VUSB
-Text GLabel 1325 9975 0    50   Input ~ 0
+Text GLabel 4050 8350 0    50   Input ~ 0
 GND
-Text GLabel 4725 9725 2    50   Input ~ 0
-LIPO-
-Text GLabel 4725 8775 2    50   Input ~ 0
+Text GLabel 4050 8550 0    50   Input ~ 0
 LIPO+
-Text GLabel 4725 8475 2    50   Input ~ 0
-OUT+
-Text GLabel 4725 9975 2    50   Input ~ 0
+Text GLabel 4050 8650 0    50   Input ~ 0
+LIPO-
+Text GLabel 4050 8750 0    50   Input ~ 0
 OUT-
-Wire Wire Line
-	4725 8475 4625 8475
-$Comp
-L Device:R R3
-U 1 1 5C1D1379
-P 4375 8775
-F 0 "R3" V 4455 8775 50  0000 C CNN
-F 1 "100" V 4375 8775 50  0000 C CNN
-F 2 "kbd:R_0805" V 4305 8775 50  0001 C CNN
-F 3 "~" H 4375 8775 50  0001 C CNN
-	1    4375 8775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4525 8775 4625 8775
-Connection ~ 4625 8775
-Wire Wire Line
-	4625 8775 4725 8775
-Wire Wire Line
-	4625 8775 4625 8475
-Wire Wire Line
-	4625 8475 2825 8475
-$Comp
-L Device:C C4
-U 1 1 5C1D1385
-P 4125 8925
-F 0 "C4" H 4150 9025 50  0000 L CNN
-F 1 "0.1uF" H 4150 8825 50  0000 L CNN
-F 2 "kbd:C_0805" H 4163 8775 50  0001 C CNN
-F 3 "~" H 4125 8925 50  0001 C CNN
-	1    4125 8925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5C1D138C
-P 3025 9225
-F 0 "R2" V 3105 9225 50  0000 C CNN
-F 1 "1K" V 3025 9225 50  0000 C CNN
-F 2 "kbd:R_0805" V 2955 9225 50  0001 C CNN
-F 3 "~" H 3025 9225 50  0001 C CNN
-	1    3025 9225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5C1D1393
-P 2825 9575
-F 0 "R1" V 2905 9575 50  0000 C CNN
-F 1 "1.2K" V 2825 9575 50  0000 C CNN
-F 2 "kbd:R_0805" V 2755 9575 50  0001 C CNN
-F 3 "~" H 2825 9575 50  0001 C CNN
-	1    2825 9575
-	1    0    0    -1  
-$EndComp
-Connection ~ 2825 9975
-$Comp
-L Device:C C3
-U 1 1 5C1D139B
-P 1825 9675
-F 0 "C3" H 1850 9775 50  0000 L CNN
-F 1 "0.1uF" H 1850 9575 50  0000 L CNN
-F 2 "kbd:C_0805" H 1863 9525 50  0001 C CNN
-F 3 "~" H 1825 9675 50  0001 C CNN
-	1    1825 9675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3725 9225 3725 9275
-Wire Wire Line
-	3425 9225 3425 9275
-$Comp
-L Device:C C5
-U 1 1 5C1D13A4
-P 4625 9275
-F 0 "C5" H 4650 9375 50  0000 L CNN
-F 1 "10uF" H 4650 9175 50  0000 L CNN
-F 2 "kbd:C_0805" H 4663 9125 50  0001 C CNN
-F 3 "~" H 4625 9275 50  0001 C CNN
-	1    4625 9275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4625 8775 4625 9125
-Wire Wire Line
-	4625 9975 4725 9975
-Wire Wire Line
-	3025 9975 4625 9975
-Wire Wire Line
-	2825 9975 3025 9975
-Wire Wire Line
-	1325 9975 1825 9975
-Wire Wire Line
-	1825 9825 1825 9975
-Connection ~ 1825 9975
-$Comp
-L kbd:TP4056 U4
-U 1 1 5C1D13B2
-P 2375 8925
-F 0 "U4" H 2375 9662 60  0000 C CNN
-F 1 "TP4056" H 2375 9556 60  0000 C CNN
-F 2 "kbd:SOP-8" H 2475 9675 60  0001 C CNN
-F 3 "" H 2475 9675 60  0001 C CNN
-	1    2375 8925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1925 9125 1925 9375
-Wire Wire Line
-	1825 9975 2325 9975
-Wire Wire Line
-	2825 9125 2825 9425
-Wire Wire Line
-	2425 9675 2325 9675
-Connection ~ 2325 9975
-Wire Wire Line
-	2325 9975 2825 9975
-NoConn ~ 3075 8775
-Wire Wire Line
-	3075 9075 3025 9075
-Connection ~ 1825 9375
-Wire Wire Line
-	1825 9375 1925 9375
-Text Notes 1475 8375 0    50   ~ 0
-LiPo Charger
-$Comp
-L kbd:FS8205A U6
-U 1 1 5C1D13CA
-P 3575 9575
-F 0 "U6" H 3575 9625 50  0000 C CNN
-F 1 "FS8205A" H 3575 9525 50  0000 C CNN
-F 2 "kbd:TSSOP-8" H 3575 9975 50  0001 C CNN
-F 3 "" H 3575 9975 50  0001 C CNN
-	1    3575 9575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4075 9075 4125 9075
-Wire Wire Line
-	4125 9725 4125 9575
-Wire Wire Line
-	4125 9725 4725 9725
-Connection ~ 4125 9075
-Wire Wire Line
-	4125 8775 4075 8775
-Wire Wire Line
-	4625 9425 4625 9975
-Wire Wire Line
-	1825 9375 1825 9525
-Wire Wire Line
-	2325 9675 2325 9975
-Wire Wire Line
-	2825 9725 2825 9975
-Wire Wire Line
-	4225 8775 4125 8775
-Connection ~ 4125 8775
-Connection ~ 3025 9975
-Connection ~ 4125 9725
-Connection ~ 4625 8475
-Connection ~ 4625 9975
-Wire Wire Line
-	4075 9725 4125 9725
-Wire Wire Line
-	3025 9375 3025 9575
-Wire Wire Line
-	4075 9575 4125 9575
-Connection ~ 4125 9575
-Wire Wire Line
-	4125 9575 4125 9075
-Wire Wire Line
-	3075 9575 3025 9575
-Connection ~ 3025 9575
-Wire Wire Line
-	3025 9575 3025 9725
-Wire Wire Line
-	3075 9725 3025 9725
-Connection ~ 3025 9725
-Wire Wire Line
-	3025 9725 3025 9975
-$Comp
-L Regulator_Linear:AMS1117 U3
-U 1 1 5C1CA794
-P 6150 8300
-F 0 "U3" H 6150 8542 50  0000 C CNN
-F 1 "AMS1117" H 6150 8451 50  0000 C CNN
-F 2 "kbd:SOT-223-3" H 6150 8500 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6250 8050 50  0001 C CNN
-	1    6150 8300
-	1    0    0    -1  
-$EndComp
-Text GLabel 3425 7750 0    50   Input ~ 0
-VUSB
-Text GLabel 6450 8300 2    50   Input ~ 0
+Text GLabel 4050 8450 0    50   Input ~ 0
+OUT+
+Text GLabel 7050 8100 2    50   Input ~ 0
 VCC
-$Comp
-L Device:Jumper_NO_Small JP15
-U 1 1 5C2BFB5C
-P 3750 7750
-F 0 "JP15" H 3750 7830 50  0000 C CNN
-F 1 "VUSB" H 3760 7690 50  0000 C CNN
-F 2 "kbd:jumper" H 3750 7750 50  0001 C CNN
-F 3 "" H 3750 7750 50  0001 C CNN
-	1    3750 7750
-	1    0    0    -1  
-$EndComp
-Text GLabel 5850 8300 0    50   Input ~ 0
+Text GLabel 5150 8100 0    50   Input ~ 0
 OUT+
-Text GLabel 4050 7750 2    50   Input ~ 0
-OUT+
-Wire Wire Line
-	3425 7750 3550 7750
 Text GLabel 5950 9050 0    50   Input ~ 0
 LIPO+
 Text GLabel 5950 9350 0    50   Input ~ 0
 LIPO-
-$Comp
-L Device:Jumper_NO_Small JP17
-U 1 1 5C44BD6C
-P 3750 8050
-F 0 "JP17" H 3750 8130 50  0000 C CNN
-F 1 "VUSB" H 3760 7990 50  0000 C CNN
-F 2 "kbd:jumper" H 3750 8050 50  0001 C CNN
-F 3 "" H 3750 8050 50  0001 C CNN
-	1    3750 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 7750 3550 8050
-Wire Wire Line
-	3550 8050 3650 8050
-Connection ~ 3550 7750
-Wire Wire Line
-	3550 7750 3650 7750
-Wire Wire Line
-	3950 7750 3950 8050
-Wire Wire Line
-	3950 8050 3850 8050
-Wire Wire Line
-	3625 9275 3575 9275
-Wire Wire Line
-	3575 9275 3575 9200
-Connection ~ 3575 9275
-Wire Wire Line
-	3575 9275 3525 9275
-NoConn ~ 3575 9200
 $Comp
 L Device:Jumper_NO_Small JP18
 U 1 1 5C65BC7E
@@ -2570,11 +2260,6 @@ Wire Wire Line
 	5950 10000 6100 10000
 Wire Wire Line
 	6300 10000 6450 10000
-Wire Wire Line
-	3850 7750 3950 7750
-Connection ~ 3950 7750
-Wire Wire Line
-	3950 7750 4050 7750
 Text GLabel 13700 2450 2    50   Input ~ 0
 D+
 Text GLabel 13700 2700 2    50   Input ~ 0
@@ -2704,71 +2389,10 @@ Wire Wire Line
 	12775 2700 12775 2800
 Wire Wire Line
 	13125 2450 13125 2800
-$Comp
-L Device:R R7
-U 1 1 5C1F5CE8
-P 1825 8925
-F 0 "R7" H 1755 8971 50  0000 R CNN
-F 1 "1K" H 1755 8880 50  0000 R CNN
-F 2 "kbd:R_0805" V 1755 8925 50  0001 C CNN
-F 3 "~" H 1825 8925 50  0001 C CNN
-	1    1825 8925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 5C26EEA0
-P 1500 9225
-F 0 "D1" V 1447 9107 50  0000 R CNN
-F 1 "LED" V 1538 9107 50  0000 R CNN
-F 2 "kbd:R_0805" H 1500 9225 50  0001 C CNN
-F 3 "~" H 1500 9225 50  0001 C CNN
-	1    1500 9225
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5C361269
-P 1500 8925
-F 0 "R6" H 1430 8971 50  0000 R CNN
-F 1 "1K" H 1430 8880 50  0000 R CNN
-F 2 "kbd:R_0805" V 1430 8925 50  0001 C CNN
-F 3 "~" H 1500 8925 50  0001 C CNN
-	1    1500 8925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 5C42C32C
-P 1825 9225
-F 0 "D2" V 1772 9107 50  0000 R CNN
-F 1 "LED" V 1863 9107 50  0000 R CNN
-F 2 "kbd:R_0805" V 1909 9304 50  0001 L CNN
-F 3 "~" H 1825 9225 50  0001 C CNN
-	1    1825 9225
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1925 8725 1825 8725
-Connection ~ 1925 9375
-Connection ~ 2325 9675
-Wire Wire Line
-	1825 8725 1825 8775
-Wire Wire Line
-	1500 8775 1500 8475
-Wire Wire Line
-	1500 8475 1925 8475
-Wire Wire Line
-	1325 9375 1500 9375
-Connection ~ 1500 9375
-Wire Wire Line
-	1500 9375 1825 9375
-Wire Wire Line
-	8500 9300 8000 9300
+	8500 9300 8250 9300
 Text GLabel 5950 9700 0    50   Input ~ 0
 VCC
-Wire Wire Line
-	8000 9800 8500 9800
 Connection ~ 8500 9300
 Wire Wire Line
 	8500 9300 8500 9400
@@ -2819,4 +2443,154 @@ Text GLabel 15650 5250 2    50   Input ~ 0
 D+
 Wire Wire Line
 	13125 3100 13125 3200
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5C2D70B1
+P 4250 8450
+F 0 "J6" H 4329 8442 50  0000 L CNN
+F 1 "lipo_charger" H 4329 8351 50  0000 L CNN
+F 2 "kbd:lipo_charger_03962A" H 4250 8450 50  0001 C CNN
+F 3 "~" H 4250 8450 50  0001 C CNN
+	1    4250 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 2200 15150 2200
+Wire Wire Line
+	14650 2350 15150 2350
+Wire Wire Line
+	14600 2500 15150 2500
+Wire Wire Line
+	14550 2650 15150 2650
+$Comp
+L kbd:LP3990-3.3v U3
+U 1 1 5C229D1A
+P 6150 8200
+F 0 "U3" H 6150 8542 50  0000 C CNN
+F 1 "LP3990-3.3v" H 6150 8451 50  0000 C CNN
+F 2 "kbd:SOT-23-5" H 6150 8200 50  0001 C CNN
+F 3 "" H 6150 8200 50  0001 C CNN
+	1    6150 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C229D21
+P 5350 8250
+F 0 "C1" H 5465 8296 50  0000 L CNN
+F 1 "1nF" H 5465 8205 50  0000 L CNN
+F 2 "kbd:C_0805" H 5388 8100 50  0001 C CNN
+F 3 "~" H 5350 8250 50  0001 C CNN
+	1    5350 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5C229D28
+P 6725 8250
+F 0 "C2" H 6840 8296 50  0000 L CNN
+F 1 "1nF" H 6840 8205 50  0000 L CNN
+F 2 "kbd:C_0805" H 6763 8100 50  0001 C CNN
+F 3 "~" H 6725 8250 50  0001 C CNN
+	1    6725 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 8500 6150 8550
+Wire Wire Line
+	5750 8100 5625 8100
+Wire Wire Line
+	5750 8200 5625 8200
+Wire Wire Line
+	5625 8200 5625 8100
+Connection ~ 5625 8100
+Wire Wire Line
+	5625 8100 5350 8100
+Wire Wire Line
+	6150 8550 5350 8550
+Wire Wire Line
+	5350 8550 5350 8400
+Connection ~ 6150 8550
+Wire Wire Line
+	6550 8100 6725 8100
+Wire Wire Line
+	6725 8100 7050 8100
+Connection ~ 6725 8100
+NoConn ~ 6550 8200
+Wire Wire Line
+	6150 8550 6725 8550
+Wire Wire Line
+	6725 8550 6725 8400
+Wire Wire Line
+	5350 8100 5150 8100
+Connection ~ 5350 8100
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5C365D1C
+P 8500 8900
+F 0 "J7" H 8580 8892 50  0000 L CNN
+F 1 "lipo_header" H 8580 8801 50  0000 L CNN
+F 2 "kbd:lipo_header" H 8500 8900 50  0001 C CNN
+F 3 "~" H 8500 8900 50  0001 C CNN
+	1    8500 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 9000 8300 9800
+Wire Wire Line
+	8000 9800 8300 9800
+Connection ~ 8300 9800
+Wire Wire Line
+	8300 9800 8500 9800
+Wire Wire Line
+	8300 8900 8250 8900
+Wire Wire Line
+	8250 8900 8250 9300
+Connection ~ 8250 9300
+Wire Wire Line
+	8250 9300 8000 9300
+Wire Wire Line
+	6150 8550 6150 8725
+Text Label 6150 8725 0    50   ~ 0
+GND
+$Comp
+L Device:Jumper_NO_Small JP15
+U 1 1 5C22A8C5
+P 4000 7700
+F 0 "JP15" H 4000 7780 50  0000 C CNN
+F 1 "VUSB" H 4010 7640 50  0000 C CNN
+F 2 "kbd:jumper" H 4000 7700 50  0001 C CNN
+F 3 "" H 4000 7700 50  0001 C CNN
+	1    4000 7700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3800 7700 0    50   Input ~ 0
+VUSB
+Text GLabel 4200 7700 2    50   Input ~ 0
+OUT+
+$Comp
+L Device:Jumper_NO_Small JP17
+U 1 1 5C2AC39E
+P 4000 7950
+F 0 "JP17" H 4000 8030 50  0000 C CNN
+F 1 "VUSB" H 4010 7890 50  0000 C CNN
+F 2 "kbd:jumper" H 4000 7950 50  0001 C CNN
+F 3 "" H 4000 7950 50  0001 C CNN
+	1    4000 7950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 7700 4100 7950
+Wire Wire Line
+	3900 7950 3900 7700
+Wire Wire Line
+	3900 7700 3800 7700
+Connection ~ 3900 7700
+Wire Wire Line
+	4100 7700 4200 7700
+Connection ~ 4100 7700
+Text GLabel 14700 6600 2    50   Input ~ 0
+VUSB
+Text GLabel 16150 6600 2    50   Input ~ 0
+VUSB
 $EndSCHEMATC
