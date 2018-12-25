@@ -1691,7 +1691,7 @@ Wire Wire Line
 Wire Wire Line
 	14550 2500 14550 2650
 $Comp
-L Connector_Generic:Conn_01x05 JP16
+L Connector_Generic:Conn_01x04 JP16
 U 1 1 5C1CF656
 P 3600 9600
 F 0 "JP16" H 3680 9642 50  0000 L CNN
@@ -1862,7 +1862,7 @@ Wire Wire Line
 Connection ~ 9000 9550
 Wire Wire Line
 	9000 9550 9000 9800
-Text GLabel 3400 9800 0    50   Input ~ 0
+Text GLabel 3400 9500 0    50   Input ~ 0
 VCC
 Text GLabel 8000 9300 0    50   Input ~ 0
 BAT+
@@ -1975,14 +1975,12 @@ F 3 "" H 6150 8550 50  0001 C CNN
 	1    6150 8550
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3400 9700 0    50   Input ~ 0
-GND
 Text GLabel 3400 9600 0    50   Input ~ 0
+GND
+Text GLabel 3400 9700 0    50   Input ~ 0
 SWD
-Text GLabel 3400 9500 0    50   Input ~ 0
+Text GLabel 3400 9800 0    50   Input ~ 0
 SWC
-Text GLabel 3400 9400 0    50   Input ~ 0
-SWO
 Text GLabel 4400 10050 0    50   Input ~ 0
 GND
 Text GLabel 4600 10050 2    50   Input ~ 0
