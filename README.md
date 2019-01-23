@@ -21,6 +21,8 @@ There's no open firmware yet (supposed to be a fork of [Bluetosis](https://githu
 * Reversible 03962A Li-Po charger board support
 * CR2032 BS-7 battery holder support
 
+![](images/jorian-1.0-assembled.jpg)
+
 ![](images/jorian-1.0.jpg)
 
 ## License
