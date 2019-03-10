@@ -4,7 +4,7 @@ Ergonomic split Bluetooth keyboard
 
 ## Video
 
-[![](http://img.youtube.com/vi/Y9UHhEeTsGA/0.jpg)](https://youtu.be/Y9UHhEeTsGA)
+[![](http://img.youtube.com/vi/QdX0h8hysV8/0.jpg)](https://youtu.be/QdX0h8hysV8)
 
 ## Download
 
