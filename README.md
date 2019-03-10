@@ -1,6 +1,6 @@
 # Jorian
 
-Ergonomic split Bluetooth keyboard
+44-key 16-column wireless split keyboard in a 100x100 mm PCB
 
 ## Video
 
@@ -48,3 +48,8 @@ The keyboard layout is derived from [Jian layout](http://www.keyboard-layout-edi
 
 Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedgehogs), he's running a high quality commercial batch.
 
+## References
+
+* Reddit thread: https://www.reddit.com/r/MechanicalKeyboards/comments/aj0mos/jorian_christmas_edition
+* nRF5x QMK fork I'm working on: https://github.com/joric/qmk_firmware/commits/nrf52
+* More pictures: https://imgur.com/a/ox6qtGx
