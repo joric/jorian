@@ -12,7 +12,11 @@ You may download production-ready Gerber files in the [releases section](https:/
 
 ## Firmware
 
-There's no stock firmware yet (I'm using a [fork of Bluetosis firmware](https://github.com/joric/bluetosis/commits/jorian)). Could work with [Mitosis](https://github.com/reversebias/mitosis) firmware (pins are the same).
+There's no official firmware yet.
+I've used a [fork of my Bluetosis firmware](https://github.com/joric/bluetosis/commits/jorian) for a demo
+(currently porting to an [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52)).
+
+Should work with an unmodified [Mitosis](https://github.com/reversebias/mitosis) firmware (pins are about the same).
 
 ## Versions
 
