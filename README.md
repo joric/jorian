@@ -22,7 +22,7 @@ Should work with an unmodified [Mitosis](https://github.com/reversebias/mitosis)
 
 ### Version 1.0 (Revision A, Jorian Christmas Edition)
 
-* 100x100mm PCB, made in KiCad, manufactured by Elecrow for $11.46 total, including shipping ([Christmas sale](http://www.elecrow.com/blog/free-prototyping-for-christmas-pcb/))
+* 100x100mm PCB, made in KiCad, manufactured by Elecrow, $11.46 total for 10 PCBs, including shipping ([Christmas sale](http://www.elecrow.com/blog/free-prototyping-for-christmas-pcb/))
 * YJ-14015 Bluetooth module (costs about $2) or nRF51822-CoreB, 4-pin SWD header for ST-LINK/V2
 * RGB backlighting support (44 LEDs, SK6812mini or 3.5 mm WS2812B, I used a cheap 3535 LED strip)
 * Reversible I2C display (SSD1306) support (mind that there's no much place for it if you're using a battery holder)
