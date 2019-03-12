@@ -12,11 +12,10 @@ You may download production-ready Gerber files in the [releases section](https:/
 
 ## Firmware
 
-There's no official firmware yet.
-I've used a [fork of my Bluetosis firmware](https://github.com/joric/bluetosis/commits/jorian) for a demo
-(currently porting to an [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52)).
+There's no official firmware yet. I've forked my [Bluetosis](https://github.com/joric/bluetosis/commits/jorian) firmware for a demo.
+There's also my [nRF5x QMK](https://github.com/joric/qmk_firmware/commits/nrf52) fork in progress.
 
-Should work with an unmodified [Mitosis](https://github.com/reversebias/mitosis) firmware (pins are about the same).
+Should also work with an unmodified [Mitosis firmware](https://github.com/reversebias/mitosis) and [Mitosis receiver](https://github.com/reversebias/mitosis-hardware) (pins are about the same).
 
 ## Versions
 
@@ -55,5 +54,5 @@ Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedg
 ## References
 
 * Reddit thread: https://www.reddit.com/r/MechanicalKeyboards/comments/aj0mos/jorian_christmas_edition
-* nRF5x QMK fork I'm working on: https://github.com/joric/qmk_firmware/commits/nrf52
+* My nRF5x QMK fork: https://github.com/joric/qmk_firmware/commits/nrf52
 * More pictures: https://imgur.com/a/ox6qtGx
