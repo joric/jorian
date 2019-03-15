@@ -12,10 +12,9 @@ You may download production-ready Gerber files in the [releases section](https:/
 
 ## Firmware
 
-There's no official firmware yet. I've forked my [Bluetosis](https://github.com/joric/bluetosis/commits/jorian) firmware for a demo.
-There's also my [nRF5x QMK](https://github.com/joric/qmk_firmware/commits/nrf52) fork in progress.
-
-Should also work with an unmodified [Mitosis firmware](https://github.com/reversebias/mitosis) and [Mitosis receiver](https://github.com/reversebias/mitosis-hardware) (pins are about the same).
+There's no official firmware yet. I've forked my [Bluetosis firmware](https://github.com/joric/bluetosis/commits/jorian) for a demo.
+There's also my [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress.
+Proven to work with unmodified [Mitosis firmware](https://github.com/reversebias/mitosis) and [Mitosis receiver](https://github.com/reversebias/mitosis-hardware) (pins are about the same).
 
 ## Versions
 
@@ -33,13 +32,14 @@ Should also work with an unmodified [Mitosis firmware](https://github.com/revers
 
 ![](images/jorian-1.0.jpg)
 
-#### Version 1.0 flaws
+#### Version 1.0 problems
 
 * Breakable parts are impossible to break accurately without incisions, need mouse bites (plate cutouts too)
 * If you're soldering extra parts with solder jumpers, solder might leak through the holes to the other side
 * LEDs are not flush with the PCB, probaby need 3.7x3.5mm cutouts (file the PCB if you need them flush)
 * Very small gap between GND and signal pads for the switches (works fine, maybe fix in the next version)
 * Li-Po charger "B-" pad overlaps the battery holder "+", might need a piece of the Kapton tape
+* Li-Po charger mounting holes placed about 0.1mm narrower vertically (not really a problem)
 
 ## License
 
