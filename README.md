@@ -12,17 +12,22 @@ You may download Gerber files, schematics and precompiled QMK firmware (for the 
 
 ## Firmware
 
-* Use [precompiled-basic-left.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-left.hex) and [precompiled-basic-right.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-right.hex) from the [Mitosis repository](https://github.com/reversebias/mitosis) for the keyboard halves.
-* Use [mitosis_jorian.hex](https://github.com/joric/jorian/releases/download/1.0/mitosis_jorian.hex) precompiled from [my QMK fork](https://github.com/joric/qmk_firmware) (see [mitosis-jorian](https://github.com/joric/qmk_firmware/tree/mitosis-jorian)) for the Mitosis receiver ([Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f)).
-* I've also forked my [Bluetosis](https://github.com/joric/bluetosis) firmware for the video to show off RGB backlighting (see the [jorian fork](https://github.com/joric/bluetosis/commits/jorian)).
-* There's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress (follow the updates).
+You can use precompiled firmware for the halves from the original [Mitosis repository](https://github.com/reversebias/mitosis) (hardware pins are about the same):
 
-## Default layout ([3D version](https://joric.github.io/keycaps/#/gists/390e5db8d649b006c32a5c49d4c82dab))
+* [precompiled-basic-left.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-left.hex) (left half)
+* [precompiled-basic-right.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-right.hex) (right half)
 
-[![](https://kle-render.herokuapp.com/api/390e5db8d649b006c32a5c49d4c82dab?8)](http://www.keyboard-layout-editor.com/#/gists/390e5db8d649b006c32a5c49d4c82dab)
+For the receiver firmware (see [mitosis-hardware](https://github.com/reversebias/mitosis-hardware) repository for the schematics)
+see my [my QMK fork](https://github.com/joric/qmk_firmware/tree/mitosis-jorian)
+with [Jian keymap](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f).
+If you don't have or don't want to use the receiver, there's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) in progress (follow the updates).
+I've also tested a [jorian branch](https://github.com/joric/bluetosis/tree/jorian) of my [Bluetosis](https://github.com/joric/bluetosis) firmware (mostly for the RGB backlighting).
 
+### Default layout
 
-## Versions
+[![](https://kle-render.herokuapp.com/api/390e5db8d649b006c32a5c49d4c82dab?8)](https://joric.github.io/keycaps/#/gists/390e5db8d649b006c32a5c49d4c82dab)
+
+## Hardware
 
 ### Version 1.0 (Revision A, Jorian Christmas Edition)
 
@@ -45,16 +50,14 @@ You may download Gerber files, schematics and precompiled QMK firmware (for the 
 * LEDs are not flush with the PCB, probaby need 3.7x3.5mm cutouts (file the PCB if you need them flush)
 * Very small gap between GND and signal pads for the switches (works fine, maybe fix in the next version)
 * Li-Po charger "B-" pad overlaps the battery holder "+", might need a piece of the Kapton tape
-* Li-Po charger mounting holes placed about 0.1mm narrower vertically (not really a problem)
+* Li-Po charger mounting holes are about 0.1mm off (not really a problem, but should be fixed)
 
 ## License
 
 ### This work is non-commercial and prohibited for group buys. No retail, no group buys of any form.
 
-This work is licensed under [The Non-Profit Open Software License version 3.0 (NPOSL-3.0)](https://opensource.org/licenses/NPOSL-3.0)
-
+This work is licensed under [The Non-Profit Open Software License version 3.0 (NPOSL-3.0)](https://opensource.org/licenses/NPOSL-3.0).
 The keyboard layout is derived from [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f) (just visually, there was no actual copying involved).
-
 Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedgehogs), he's running a high quality commercial batch.
 
 ## References
