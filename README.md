@@ -19,7 +19,7 @@ You may download Gerber files, schematics and precompiled QMK firmware (for the 
 
 ## Default layout ([3D version](https://joric.github.io/keycaps/#/gists/390e5db8d649b006c32a5c49d4c82dab))
 
-[![](https://kle-render.herokuapp.com/api/390e5db8d649b006c32a5c49d4c82dab?6)](http://www.keyboard-layout-editor.com/#/gists/390e5db8d649b006c32a5c49d4c82dab)
+[![](https://kle-render.herokuapp.com/api/390e5db8d649b006c32a5c49d4c82dab?7)](http://www.keyboard-layout-editor.com/#/gists/390e5db8d649b006c32a5c49d4c82dab)
 
 
 ## Versions
