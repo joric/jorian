@@ -8,13 +8,14 @@
 
 ## Download
 
-You may download production-ready Gerber files in the [releases section](https://github.com/joric/jorian/releases).
+You may download Gerber files, schematics and precompiled QMK firmware (for the Mitosis receiver) in the [releases section](https://github.com/joric/jorian/releases).
 
 ## Firmware
 
-There's no official firmware yet. I've forked my [Bluetosis firmware](https://github.com/joric/bluetosis/commits/jorian) for a demo.
-There's also my [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress.
-Proven to work with unmodified [Mitosis firmware](https://github.com/reversebias/mitosis) and [Mitosis receiver](https://github.com/reversebias/mitosis-hardware) (pins are about the same).
+Proven to work with unmodified [Mitosis firmware](https://github.com/reversebias/mitosis) and its receiver (pins are about the same).
+There's my unofficial QMK fork ([mitosis-jorian](https://github.com/joric/qmk_firmware/tree/mitosis-jorian)) for the Mitosis receiver-compatible layout.
+There's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress (follow the updates).
+I've also forked my [Bluetosis](https://github.com/joric/bluetosis) firmware for the video to show off RGB backlighting (see the [jorian fork](https://github.com/joric/bluetosis/commits/jorian)).
 
 ## Versions
 
