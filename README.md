@@ -17,9 +17,9 @@ You may download Gerber files, schematics and precompiled QMK firmware (for the 
 * I've also forked my [Bluetosis](https://github.com/joric/bluetosis) firmware for the video to show off RGB backlighting (see the [jorian fork](https://github.com/joric/bluetosis/commits/jorian)).
 * There's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress (follow the updates).
 
-## Default jayout ([3D version](https://joric.github.io/keycaps/#/gists/390e5db8d649b006c32a5c49d4c82dab))
+## Default layout ([3D version](https://joric.github.io/keycaps/#/gists/390e5db8d649b006c32a5c49d4c82dab))
 
-[![](https://kle-render.herokuapp.com/api/390e5db8d649b006c32a5c49d4c82dab?2)](http://www.keyboard-layout-editor.com/#/gists/390e5db8d649b006c32a5c49d4c82dab)
+[![](https://kle-render.herokuapp.com/api/390e5db8d649b006c32a5c49d4c82dab?5)](http://www.keyboard-layout-editor.com/#/gists/390e5db8d649b006c32a5c49d4c82dab)
 
 
 ## Versions
