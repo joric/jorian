@@ -18,10 +18,11 @@ You can use precompiled firmware for the halves from the original [Mitosis repos
 * [precompiled-basic-right.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-right.hex) (right half)
 
 For the receiver firmware (see [mitosis-hardware](https://github.com/reversebias/mitosis-hardware) repository for the schematics)
-see my [my QMK fork](https://github.com/joric/qmk_firmware/tree/mitosis-jorian)
-with [Jian keymap](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f).
-If you don't have or don't want to use the receiver, there's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) in progress (follow the updates).
-I've also tested a [jorian branch](https://github.com/joric/bluetosis/tree/jorian) of my [Bluetosis](https://github.com/joric/bluetosis) firmware (mostly for the RGB backlighting).
+see my [mitosis-jorian](https://github.com/joric/qmk_firmware/tree/mitosis-jorian) QMK branch
+that implements [Jian keymap](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f) for the Mitosis keyboard.
+If you don't have or don't want to use the receiver, there's also [jorian branch](https://github.com/joric/bluetosis/tree/jorian)
+of my [Bluetosis](https://github.com/joric/bluetosis) firmware (mostly for the RGB backlighting)
+and [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) (in progress, follow the updates).
 
 ### Default layout
 
