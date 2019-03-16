@@ -12,10 +12,10 @@ You may download Gerber files, schematics and precompiled QMK firmware (for the 
 
 ## Firmware
 
-Proven to work with unmodified [Mitosis firmware](https://github.com/reversebias/mitosis) and its receiver (pins are about the same).
-There's my unofficial QMK fork ([mitosis-jorian](https://github.com/joric/qmk_firmware/tree/mitosis-jorian)) for the Mitosis receiver-compatible layout.
-There's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress (follow the updates).
-I've also forked my [Bluetosis](https://github.com/joric/bluetosis) firmware for the video to show off RGB backlighting (see the [jorian fork](https://github.com/joric/bluetosis/commits/jorian)).
+* Use [precompiled-basic-left.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-left.hex) and [precompiled-basic-right.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-right.hex) from the [Mitosis repository](https://github.com/reversebias/mitosis) for the keyboard halves.
+* Use [mitosis_jorian.hex](https://github.com/joric/jorian/releases/download/1.0/mitosis_jorian.hex) precompiled from [my QMK fork](https://github.com/joric/qmk_firmware) (see [mitosis-jorian](https://github.com/joric/qmk_firmware/tree/mitosis-jorian)) for the Mitosis receiver.
+* I've also forked my [Bluetosis](https://github.com/joric/bluetosis) firmware for the video to show off RGB backlighting (see the [jorian fork](https://github.com/joric/bluetosis/commits/jorian)).
+* There's also my Bluetooth [nRF5x QMK fork](https://github.com/joric/qmk_firmware/commits/nrf52) in progress (follow the updates).
 
 ## Versions
 
