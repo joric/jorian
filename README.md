@@ -44,7 +44,7 @@ and [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) (in progr
 
 ![](images/jorian-1.0.jpg)
 
-#### Version 1.0 problems
+#### Version 1.0 issues
 
 * Breakable parts are impossible to break accurately without incisions, need mouse bites (plate cutouts too)
 * If you're soldering extra parts with solder jumpers, solder might leak through the holes to the other side
@@ -52,6 +52,8 @@ and [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) (in progr
 * Very small gap between GND and signal pads for the switches (works fine, maybe fix in the next version)
 * Li-Po charger "B-" pad overlaps the battery holder "+", might need a piece of the Kapton tape
 * Li-Po charger mounting holes are about 0.1mm off (not really a problem, but should be fixed)
+* **(Major issue) Li-Po charger jumpers on the back side of the PCB are really messed up (fixable with the wire)**
+* **(Major issue) LEDs are not powering up from the charger alone without the battery (poor wattage)**
 
 ## License
 
