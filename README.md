@@ -52,8 +52,8 @@ and [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) (in progr
 * Very small gap between GND and signal pads for the switches (works fine, maybe fix in the next version)
 * Li-Po charger "B-" pad overlaps the battery holder "+", might need a piece of the Kapton tape
 * Li-Po charger mounting holes are about 0.1mm off (not really a problem, but should be fixed)
+* LEDs are not powering up from the charger without LIR2032 (03962A has Li-Po protection but no power switching)
 * **(Major issue) Li-Po charger jumpers on the back side of the PCB are really messed up (fixable with the wire)**
-* **(Major issue) LEDs are not powering up from the charger alone without the battery (poor wattage)**
 
 ## License
 
