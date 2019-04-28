@@ -16,6 +16,7 @@ You can use precompiled firmware for the halves from the original [Mitosis repos
 
 * [precompiled-basic-left.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-left.hex) (left half)
 * [precompiled-basic-right.hex](https://github.com/reversebias/mitosis/blob/master/precompiled/precompiled-basic-right.hex) (right half)
+* [mitosis_jorian.hex](https://github.com/joric/jorian/releases) (mitosis receiver)
 
 For the receiver firmware (see [mitosis-hardware](https://github.com/reversebias/mitosis-hardware) repository for the schematics)
 see my [mitosis-jorian](https://github.com/joric/qmk_firmware/tree/mitosis-jorian) QMK branch
