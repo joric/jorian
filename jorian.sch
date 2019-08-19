@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:jorian-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -2206,15 +2206,15 @@ F 3 "" H 12600 6100 50  0001 C CNN
 	1    12600 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 12500 6700 0    50   Input ~ 0
+Text GLabel 12500 7950 0    50   Input ~ 0
 VUSB
-Text GLabel 12500 6950 0    50   Input ~ 0
-GND
-Text GLabel 12500 7450 0    50   Input ~ 0
-LIPO+
 Text GLabel 12500 7700 0    50   Input ~ 0
-LIPO-
+GND
 Text GLabel 12500 7200 0    50   Input ~ 0
+LIPO+
+Text GLabel 12500 6950 0    50   Input ~ 0
+LIPO-
+Text GLabel 12500 7450 0    50   Input ~ 0
 OUT+
 $Comp
 L Device:Jumper_NO_Small JP22
@@ -2316,7 +2316,7 @@ Wire Wire Line
 	12950 5600 13000 5600
 Wire Wire Line
 	12700 6350 12950 6350
-Text GLabel 12500 7950 0    50   Input ~ 0
+Text GLabel 12500 6700 0    50   Input ~ 0
 OUT-
 $Comp
 L Device:Jumper_NO_Small JP27

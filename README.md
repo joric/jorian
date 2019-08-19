@@ -45,6 +45,10 @@ and [nRF5x QMK fork](https://github.com/joric/qmk_firmware/tree/nrf52) (in progr
 
 ![](images/jorian-1.0.jpg)
 
+#### Version 1.1
+
+* Fixed Li-Po charger jumpers on the back side
+
 #### Version 1.0 issues
 
 * Breakable parts are impossible to break accurately without incisions, need mouse bites (plate cutouts too)
