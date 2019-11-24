@@ -5,8 +5,8 @@
     (drawings 83)
     (tracks 0)
     (zones 0)
-    (modules 103)
-    (nets 151)
+    (modules 111)
+    (nets 155)
   )
 
   (page A4)
@@ -242,6 +242,10 @@
   (net 148 "Net-(R8-Pad2)")
   (net 149 "Net-(R9-Pad1)")
   (net 150 "Net-(SW1-Pad1)")
+  (net 151 "Net-(JP16-Pad2)")
+  (net 152 "Net-(JP25-Pad2)")
+  (net 153 "Net-(JP26-Pad2)")
+  (net 154 "Net-(JP27-Pad2)")
 
   (net_class Default "This is the default net class."
     (clearance 0.175)
@@ -318,7 +322,11 @@
     (add_net "Net-(J5-PadB)")
     (add_net "Net-(J5-PadC)")
     (add_net "Net-(J5-PadD)")
+    (add_net "Net-(JP16-Pad2)")
     (add_net "Net-(JP2-Pad2)")
+    (add_net "Net-(JP25-Pad2)")
+    (add_net "Net-(JP26-Pad2)")
+    (add_net "Net-(JP27-Pad2)")
     (add_net "Net-(JP3-Pad2)")
     (add_net "Net-(JP4-Pad2)")
     (add_net "Net-(JP5-Pad2)")
@@ -402,8 +410,220 @@
     (add_net VCC)
   )
 
+  (module kbd:connector_i2c (layer F.Cu) (tedit 5C20DB4A) (tstamp 5DDB2785)
+    (at 62.865 40.64)
+    (path /5DE4396D)
+    (fp_text reference OLED2 (at 0 -2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value I2C_conn (at 0 -3.302) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user "" (at 6.35 0) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 4 thru_hole circle (at 3.81 0) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 151 "Net-(JP16-Pad2)"))
+    (pad 3 thru_hole circle (at 1.27 0) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 152 "Net-(JP25-Pad2)"))
+    (pad 2 thru_hole circle (at -1.27 0) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 153 "Net-(JP26-Pad2)"))
+    (pad 1 thru_hole circle (at -3.81 0) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 154 "Net-(JP27-Pad2)"))
+  )
+
+  (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DDB24D8)
+    (at 59.055 42.545)
+    (path /5DE439C1)
+    (attr smd)
+    (fp_text reference JP31 (at 0 -1.524) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (fp_text value " " (at 0 -1.389) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (pad 2 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 154 "Net-(JP27-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 42 GND) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DDB24D2)
+    (at 61.595 42.545)
+    (path /5DE439C7)
+    (attr smd)
+    (fp_text reference JP30 (at 0 -1.524) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (fp_text value " " (at 0 -1.389) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (pad 2 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 153 "Net-(JP26-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 43 VCC) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DDB24CC)
+    (at 64.135 42.545)
+    (path /5DE439CD)
+    (attr smd)
+    (fp_text reference JP29 (at 0 -1.524) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (fp_text value " " (at 0 -1.389) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (pad 2 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 152 "Net-(JP25-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 65 SCL) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DDB24C6)
+    (at 66.675 42.545)
+    (path /5DE439D3)
+    (attr smd)
+    (fp_text reference JP28 (at 0 -1.524) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (fp_text value " " (at 0 -1.389) (layer F.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+    (pad 2 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 151 "Net-(JP16-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+      (net 64 SDA) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5DDB24C0)
+    (at 59.055 42.545 180)
+    (path /5DE4399D)
+    (attr smd)
+    (fp_text reference JP27 (at 0 1.524 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (fp_text value " " (at 0 1.389 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (pad 2 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 154 "Net-(JP27-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 64 SDA) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5DDB24BA)
+    (at 61.595 42.545 180)
+    (path /5DE43997)
+    (attr smd)
+    (fp_text reference JP26 (at 0 1.524 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (fp_text value " " (at 0 1.389 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (pad 2 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 153 "Net-(JP26-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 65 SCL) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5DDB24B4)
+    (at 64.135 42.545 180)
+    (path /5DE43991)
+    (attr smd)
+    (fp_text reference JP25 (at 0 1.524 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (fp_text value " " (at 0 1.389 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (pad 2 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 152 "Net-(JP25-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 43 VCC) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5DDB245E)
+    (at 66.675 42.545 180)
+    (path /5DE4398B)
+    (attr smd)
+    (fp_text reference JP16 (at 0 1.524 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (fp_text value " " (at 0 1.389 180) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+    )
+    (pad 2 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 151 "Net-(JP16-Pad2)") (clearance 0.1905))
+    (pad 1 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+      (net 42 GND) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module kbd:connector_i2c (layer F.Cu) (tedit 5C20DB4A) (tstamp 5DD1C273)
+    (at 80.645 106.045 270)
+    (path /5C1C7267)
+    (fp_text reference OLED1 (at 0 -2 270) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value I2C_conn (at 0 -3.302 270) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user "" (at 6.35 0 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 4 thru_hole circle (at 3.81 0 270) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 69 "Net-(JP2-Pad2)"))
+    (pad 3 thru_hole circle (at 1.27 0 270) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 68 "Net-(JP3-Pad2)"))
+    (pad 2 thru_hole circle (at -1.27 0 270) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 67 "Net-(JP4-Pad2)"))
+    (pad 1 thru_hole circle (at -3.81 0 270) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
+      (net 66 "Net-(JP5-Pad2)"))
+  )
+
   (module Package_TO_SOT_SMD:SOT-23-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 5DD8450A)
-    (at 79.375 50.165)
+    (at 60.325 53.975)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DDCE877)
@@ -446,7 +666,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 5DD844F5)
-    (at 79.375 46.355)
+    (at 60.325 46.355)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DDCE860)
@@ -528,7 +748,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DD83E8B)
-    (at 79.375 63.5)
+    (at 79.375 55.245)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDCE85A)
@@ -564,7 +784,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DD83E7A)
-    (at 79.375 61.595)
+    (at 79.375 53.34)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDCE8C2)
@@ -600,18 +820,18 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DD83E69)
-    (at 60.325 51.435)
+    (at 43.18 52.705 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDCE8A6)
     (attr smd)
-    (fp_text reference R7 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R7 (at 0 -1.43 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 0 1.43) (layer F.Fab)
+    (fp_text value 10K (at 0 1.43 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer F.CrtYd) (width 0.05))
@@ -624,9 +844,9 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 147 P0.26))
-    (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 145 "Net-(Q1-Pad3)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -672,7 +892,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DD83E47)
-    (at 79.375 65.405)
+    (at 79.375 57.15)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDCE845)
@@ -708,7 +928,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5DD83DBE)
-    (at 79.375 53.34)
+    (at 60.325 50.165)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5DDCE82F)
@@ -830,7 +1050,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5DD837A2)
-    (at 79.375 59.69)
+    (at 79.375 50.8)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5DDCE886)
@@ -866,7 +1086,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5DD83791)
-    (at 79.375 57.785)
+    (at 79.375 48.26)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5DDCE854)
@@ -902,7 +1122,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5DD83780)
-    (at 79.375 55.88)
+    (at 79.375 45.72)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5DDCE835)
@@ -938,7 +1158,7 @@
   )
 
   (module kbd:R_0805 (layer F.Cu) (tedit 5C1C43C6) (tstamp 5DD718C2)
-    (at 60.325 60.325)
+    (at 60.325 58.42)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDAD5D6)
@@ -972,7 +1192,7 @@
   )
 
   (module kbd:R_0805 (layer F.Cu) (tedit 5C1C43C6) (tstamp 5DD718B3)
-    (at 60.325 57.15)
+    (at 60.325 56.515)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDAD5BC)
@@ -1026,19 +1246,19 @@
     )
   )
 
-  (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DD715A0)
-    (at 64.135 42.545)
+  (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5DD715A0)
+    (at 57.15 63)
     (path /5DDAD5AE)
     (attr smd)
-    (fp_text reference JP23 (at 0 -1.524) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    (fp_text reference JP23 (at 0 1.524) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value D+ (at 0 -1.389) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    (fp_text value D+ (at 0 1.389) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (pad 2 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 121 D+) (clearance 0.1905))
-    (pad 1 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 136 "Net-(J5-PadD)") (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -1047,19 +1267,19 @@
     )
   )
 
-  (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DD7159A)
-    (at 66.675 42.545)
+  (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5DD7159A)
+    (at 57.15 65.405)
     (path /5DDAD58E)
     (attr smd)
-    (fp_text reference JP22 (at 0 -1.524) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    (fp_text reference JP22 (at 0 1.524) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value GND (at 0 -1.389) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    (fp_text value GND (at 0 1.389) (layer B.SilkS) hide
+      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (pad 2 smd rect (at 0 -0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 42 GND) (clearance 0.1905))
-    (pad 1 smd rect (at 0 0.5 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 138 "Net-(J5-PadB)") (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -1069,7 +1289,7 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DD7156C)
-    (at 61.595 42.545)
+    (at 57.15 65.405)
     (path /5DDAD594)
     (attr smd)
     (fp_text reference JP17 (at 0 -1.524) (layer F.SilkS) hide
@@ -1132,7 +1352,7 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5DD7154C)
-    (at 59.055 42.545)
+    (at 57.15 63)
     (path /5DDAD5D0)
     (attr smd)
     (fp_text reference JP13 (at 0 -1.524) (layer F.SilkS) hide
@@ -1216,7 +1436,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DD6F8DB)
-    (at 60.325 49.53)
+    (at 51.435 41.91)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDAA4AA)
@@ -1252,7 +1472,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5DD6F8CA)
-    (at 60.4775 47.625)
+    (at 51.435 40.005)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5DDAA4B0)
@@ -1522,47 +1742,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module kbd:oled_128x32_i2c (layer F.Cu) (tedit 5C0EB410) (tstamp 5DD1C273)
-    (at 80.645 106.045 90)
-    (path /5C1C7267)
-    (fp_text reference OLED1 (at 0 2.9845 -90) (layer Dwgs.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value I2C_conn (at 0 17.78) (layer F.SilkS)
-      (effects (font (size 2 2) (thickness 0.15)))
-    )
-    (fp_text user SDA (at 3.809435 1.172378 90) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    )
-    (fp_text user SCK (at 1.269435 1.172378 90) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    )
-    (fp_text user VCC (at -1.270565 1.172378 90) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    )
-    (fp_text user GND (at -3.810565 1.172378 90) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    )
-    (fp_line (start -5.000565 30.632378) (end -5.000565 4.632378) (layer F.SilkS) (width 0.25))
-    (fp_line (start 4.999435 4.632378) (end 4.999435 30.632378) (layer F.SilkS) (width 0.25))
-    (fp_line (start 4.999435 30.632378) (end -5.000565 30.632378) (layer F.SilkS) (width 0.25))
-    (fp_line (start 4.999435 4.632378) (end -5.000565 4.632378) (layer F.SilkS) (width 0.25))
-    (fp_line (start -6.000565 36.632378) (end -6.000565 -1.367622) (layer F.SilkS) (width 0.25))
-    (fp_line (start 5.999435 36.632378) (end -6.000565 36.632378) (layer F.SilkS) (width 0.25))
-    (fp_line (start 5.999435 -1.367622) (end 5.999435 36.632378) (layer F.SilkS) (width 0.25))
-    (fp_line (start 5.999435 -1.367622) (end -6.000565 -1.367622) (layer F.SilkS) (width 0.25))
-    (fp_line (start -3.175 30.734) (end -3.175 36.449) (layer F.SilkS) (width 0.15))
-    (fp_line (start 3.175 30.734) (end 3.175 36.449) (layer F.SilkS) (width 0.15))
-    (pad 4 thru_hole circle (at -3.810565 -0.097622) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
-      (net 69 "Net-(JP2-Pad2)"))
-    (pad 3 thru_hole circle (at -1.270565 -0.097622) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
-      (net 68 "Net-(JP3-Pad2)"))
-    (pad 2 thru_hole circle (at 1.269435 -0.097622) (size 1.524 1.524) (drill 0.752) (layers *.Cu *.Mask)
-      (net 67 "Net-(JP4-Pad2)"))
-    (pad 1 thru_hole circle (at 3.809435 -0.097622) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
-      (net 66 "Net-(JP5-Pad2)"))
   )
 
   (module kbd:cr2032_bs-7 (layer F.Cu) (tedit 5C20BF3E) (tstamp 5DD1BDDF)
@@ -3652,38 +3831,19 @@
       (net 43 VCC))
   )
 
-  (module kbd:connector_swd (layer F.Cu) (tedit 5C21AD06) (tstamp 5C1BD561)
-    (at 107.95 98.425 180)
-    (path /5C1CF656)
-    (fp_text reference JP16 (at 0 -1.778 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value SWD_conn (at 0 -3.937 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 4 thru_hole circle (at 3.81 0 180) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
-      (net 77 SWC))
-    (pad 3 thru_hole circle (at 1.27 0 180) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
-      (net 76 SWD))
-    (pad 2 thru_hole circle (at -1.27 0 180) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
-      (net 42 GND))
-    (pad 1 thru_hole circle (at -3.81 0 180) (size 1.27 1.27) (drill 0.81) (layers *.Cu *.Mask)
-      (net 43 VCC))
-  )
-
   (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5C21CAD9)
-    (at 78.359 104.775)
+    (at 78.359 104.775 90)
     (path /5C1C7298)
     (attr smd)
-    (fp_text reference JP8 (at 0 1.524) (layer B.SilkS) hide
+    (fp_text reference JP8 (at 0 1.524 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value " " (at 0 1.389) (layer B.SilkS) hide
+    (fp_text value " " (at 0 1.389 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (pad 2 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0 0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 67 "Net-(JP4-Pad2)") (clearance 0.1905))
-    (pad 1 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 -0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 43 VCC) (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3693,18 +3853,18 @@
   )
 
   (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5C21CAD3)
-    (at 78.359 102.235)
+    (at 78.359 102.235 90)
     (path /5C1C729F)
     (attr smd)
-    (fp_text reference JP9 (at 0 1.524) (layer B.SilkS) hide
+    (fp_text reference JP9 (at 0 1.524 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value " " (at 0 1.389) (layer B.SilkS) hide
+    (fp_text value " " (at 0 1.389 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 -0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 42 GND) (clearance 0.1905))
-    (pad 2 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0 0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 66 "Net-(JP5-Pad2)") (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3714,18 +3874,18 @@
   )
 
   (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5C21CA99)
-    (at 78.359 107.315)
+    (at 78.359 107.315 90)
     (path /5C1C7291)
     (attr smd)
-    (fp_text reference JP7 (at 0 1.524) (layer B.SilkS) hide
+    (fp_text reference JP7 (at 0 1.524 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value " " (at 0 1.389) (layer B.SilkS) hide
+    (fp_text value " " (at 0 1.389 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (pad 2 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0 0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 68 "Net-(JP3-Pad2)") (clearance 0.1905))
-    (pad 1 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 -0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 65 SCL) (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3735,18 +3895,18 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5C21CA89)
-    (at 78.359 109.855 180)
+    (at 78.359 109.855 270)
     (path /5C1C726E)
     (attr smd)
-    (fp_text reference JP2 (at 0 -1.524 180) (layer F.SilkS) hide
+    (fp_text reference JP2 (at 0 -1.524 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (fp_text value " " (at 0 -1.389 180) (layer F.SilkS) hide
+    (fp_text value " " (at 0 -1.389 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (pad 1 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0 0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 42 GND) (clearance 0.1905))
-    (pad 2 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 -0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 69 "Net-(JP2-Pad2)") (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3756,18 +3916,18 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5C21CA83)
-    (at 78.359 107.315 180)
+    (at 78.359 107.315 270)
     (path /5C1C7275)
     (attr smd)
-    (fp_text reference JP3 (at 0 -1.524 180) (layer F.SilkS) hide
+    (fp_text reference JP3 (at 0 -1.524 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (fp_text value " " (at 0 -1.389 180) (layer F.SilkS) hide
+    (fp_text value " " (at 0 -1.389 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (pad 2 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 -0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 68 "Net-(JP3-Pad2)") (clearance 0.1905))
-    (pad 1 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0 0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 43 VCC) (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3777,18 +3937,18 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5C21CA7D)
-    (at 78.359 104.775 180)
+    (at 78.359 104.775 270)
     (path /5C1C727C)
     (attr smd)
-    (fp_text reference JP4 (at 0 -1.524 180) (layer F.SilkS) hide
+    (fp_text reference JP4 (at 0 -1.524 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (fp_text value " " (at 0 -1.389 180) (layer F.SilkS) hide
+    (fp_text value " " (at 0 -1.389 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (pad 1 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0 0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 65 SCL) (clearance 0.1905))
-    (pad 2 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 -0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 67 "Net-(JP4-Pad2)") (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3798,18 +3958,18 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20BA3A) (tstamp 5C21CA77)
-    (at 78.359 102.235 180)
+    (at 78.359 102.235 270)
     (path /5C1C7283)
     (attr smd)
-    (fp_text reference JP5 (at 0 -1.524 180) (layer F.SilkS) hide
+    (fp_text reference JP5 (at 0 -1.524 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (fp_text value " " (at 0 -1.389 180) (layer F.SilkS) hide
+    (fp_text value " " (at 0 -1.389 270) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (pad 2 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 -0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 66 "Net-(JP5-Pad2)") (clearance 0.1905))
-    (pad 1 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0 0.5) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 64 SDA) (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -3819,18 +3979,18 @@
   )
 
   (module kbd:jumper (layer B.Cu) (tedit 5C20BA3A) (tstamp 5C21CA71)
-    (at 78.359 109.855)
+    (at 78.359 109.855 90)
     (path /5C1C728A)
     (attr smd)
-    (fp_text reference JP6 (at 0 1.524) (layer B.SilkS) hide
+    (fp_text reference JP6 (at 0 1.524 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value " " (at 0 1.389) (layer B.SilkS) hide
+    (fp_text value " " (at 0 1.389 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 -0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 -0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 64 SDA) (clearance 0.1905))
-    (pad 2 smd rect (at 0 0.5 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0 0.5) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 69 "Net-(JP2-Pad2)") (clearance 0.1905))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02539999961853028))
@@ -4220,7 +4380,7 @@
   )
 
   (module kbd:jumper (layer B.Cu) (tedit 5C20E70F) (tstamp 5C1E8C0F)
-    (at 78.105 99.695 180)
+    (at 64.135 99.695 180)
     (path /5C4D6698)
     (attr smd)
     (fp_text reference JP1 (at 0 -1.397 180) (layer B.SilkS) hide
@@ -4241,7 +4401,7 @@
   )
 
   (module kbd:jumper (layer F.Cu) (tedit 5C20E712) (tstamp 5C1C5B5B)
-    (at 78.105 99.695)
+    (at 69.85 99.695)
     (path /5C4D669F)
     (attr smd)
     (fp_text reference JP10 (at 0 1.397) (layer F.SilkS) hide
