@@ -2,6 +2,12 @@
 
 44-key 16-column wireless split keyboard in a 100x100 mm PCB
 
+## Disclaimer
+
+The keyboard layout is derived from [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f) (just visually, there was no actual copying involved).
+There are multiple [issues](https://github.com/joric/jorian/wiki/Issues) in my version.
+Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedgehogs), he's running a high quality commercial batch.
+
 ## Download
 
 You can download Gerber files and schematics the [releases section](https://github.com/joric/jorian/releases).
