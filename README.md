@@ -8,4 +8,4 @@ Please read wiki for details: https://github.com/joric/jorian/wiki
 
 Development version (dual mode nRF52840-based with USB-C and battery charger onboard)
 
-![](front.png)
+![](jorian.png)
