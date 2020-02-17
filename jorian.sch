@@ -1725,7 +1725,7 @@ U 1 1 5DDAA460
 P 14250 7775
 F 0 "J4" H 14355 8642 50  0000 C CNN
 F 1 "USB-C" H 14355 8551 50  0000 C CNN
-F 2 "kbd:usb_type_c" H 14400 7775 50  0001 C CNN
+F 2 "kbd:HRO-TYPE-C-31-M-12-Assembly" H 14400 7775 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14400 7775 50  0001 C CNN
 	1    14250 7775
 	1    0    0    -1  
@@ -1819,7 +1819,7 @@ U 1 1 5DDAA495
 P 14250 5600
 F 0 "J3" H 14355 6467 50  0000 C CNN
 F 1 "USB-C" H 14355 6376 50  0000 C CNN
-F 2 "kbd:usb_type_c" H 14400 5600 50  0001 C CNN
+F 2 "kbd:HRO-TYPE-C-31-M-12-Assembly" H 14400 5600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14400 5600 50  0001 C CNN
 	1    14250 5600
 	1    0    0    -1  
