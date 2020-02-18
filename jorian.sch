@@ -36,11 +36,11 @@ F 3 "" H 10350 8100 50  0001 C CNN
 	1    10350 8100
 	1    0    0    -1  
 $EndComp
-Text Label 10750 8000 0    50   ~ 0
+Text Label 10750 8200 0    50   ~ 0
 GND
-Text Label 10750 8100 0    50   ~ 0
-S18
 Text Label 10750 8300 0    50   ~ 0
+S18
+Text Label 10750 8000 0    50   ~ 0
 VCC
 $Comp
 L Connector_Generic:Conn_01x04 E19
@@ -64,14 +64,10 @@ F 3 "" H 10100 5250 50  0001 C CNN
 	1    10100 5250
 	1    0    0    -1  
 $EndComp
-Text Label 9900 5150 2    50   ~ 0
-GND
-Text Label 9900 5250 2    50   ~ 0
+Text Label 9900 5450 2    50   ~ 0
 S19
-Text Label 9900 5350 2    50   ~ 0
+Text Label 9900 6150 2    50   ~ 0
 S20
-Text Label 9900 6650 2    50   ~ 0
-S21
 $Comp
 L Connector_Generic:Conn_01x04 E21
 U 1 1 5C6F2906
@@ -94,43 +90,35 @@ F 3 "" H 10100 6650 50  0001 C CNN
 	1    10100 6650
 	1    0    0    -1  
 $EndComp
-Text Label 9900 6550 2    50   ~ 0
-GND
 Text Label 9900 5950 2    50   ~ 0
 S22
-Text Label 9900 6850 2    50   ~ 0
-VCC
-Text Label 10750 8200 0    50   ~ 0
+Text Label 10750 8100 0    50   ~ 0
 DIN18
-Text Label 10150 8100 2    50   ~ 0
-S18_A
-Text Label 10150 8000 2    50   ~ 0
-GND_A
 Text Label 10150 8300 2    50   ~ 0
-VCC_A
+S18_A
 Text Label 10150 8200 2    50   ~ 0
+GND_A
+Text Label 10150 8000 2    50   ~ 0
+VCC_A
+Text Label 10150 8100 2    50   ~ 0
 DIN18_A
-Text Label 10500 5150 0    50   ~ 0
-GND_B
-Text Label 10500 5250 0    50   ~ 0
+Text Label 10500 5450 0    50   ~ 0
 S19_B
-Text Label 10500 5350 0    50   ~ 0
+Text Label 10500 6150 0    50   ~ 0
 S20_B
-Text Label 10500 6650 0    50   ~ 0
+Text Label 10500 6850 0    50   ~ 0
 S21_B
-Text Label 10500 6550 0    50   ~ 0
-GND_B
 Text Label 10500 5950 0    50   ~ 0
 S22_B
-Text Label 10500 6850 0    50   ~ 0
+Text Label 10500 6650 0    50   ~ 0
 VCC_B
-Text Label 10500 6750 0    50   ~ 0
+Text Label 10500 5250 0    50   ~ 0
 DIN21_B
-Text Label 9900 5450 2    50   ~ 0
+Text Label 9900 5150 2    50   ~ 0
 DIN5
-Text Label 10500 5450 0    50   ~ 0
+Text Label 10500 5150 0    50   ~ 0
 DIN5_B
-Text Label 9900 6750 2    50   ~ 0
+Text Label 9900 5250 2    50   ~ 0
 DIN21
 $Comp
 L Device:Battery_Cell BT1
@@ -165,10 +153,6 @@ F 3 "" H 10100 5950 50  0001 C CNN
 	1    10100 5950
 	1    0    0    -1  
 $EndComp
-Text Label 9900 5850 2    50   ~ 0
-GND
-Text Label 10500 5850 0    50   ~ 0
-GND_B
 Wire Wire Line
 	4700 1750 4700 2350
 Wire Wire Line
@@ -1300,19 +1284,13 @@ F 3 "" H 15600 950 50  0001 C CNN
 	1    15600 950 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10500 6050
-NoConn ~ 9900 6050
-Text Label 9900 6150 2    50   ~ 0
-VCC
-Text Label 10500 6150 0    50   ~ 0
-VCC_B
 $Comp
 L Connector_Generic:Conn_01x04 OLED1
 U 1 1 5C1C7267
 P 14675 1675
 F 0 "OLED1" H 14675 1325 50  0000 C CNN
 F 1 "I2C_conn" H 14675 1925 50  0000 C CNN
-F 2 "kbd:connector_i2c" H 14675 1675 50  0001 C CNN
+F 2 "kbd:connector_swd" H 14675 1675 50  0001 C CNN
 F 3 "" H 14675 1675 50  0001 C CNN
 	1    14675 1675
 	-1   0    0    1   
@@ -2721,4 +2699,24 @@ Text GLabel 2350 5400 2    50   Input ~ 0
 RX
 Text GLabel 2325 2625 2    50   Input ~ 0
 RX
+Text Label 9900 6750 2    50   ~ 0
+GND
+Text Label 10500 6750 0    50   ~ 0
+GND_B
+Text Label 9900 6050 2    50   ~ 0
+GND
+Text Label 9900 6650 2    50   ~ 0
+VCC
+Text Label 9900 6850 2    50   ~ 0
+S21
+Text Label 9900 5350 2    50   ~ 0
+GND
+Text Label 10500 5350 0    50   ~ 0
+GND_B
+NoConn ~ 10500 6550
+NoConn ~ 9900 6550
+NoConn ~ 9900 5850
+NoConn ~ 10500 5850
+Text Label 10500 6050 0    50   ~ 0
+GND_B
 $EndSCHEMATC
