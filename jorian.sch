@@ -1436,26 +1436,8 @@ Wire Wire Line
 	3550 5225 4050 5225
 Wire Wire Line
 	3550 4725 3775 4725
-$Comp
-L power:GND #PWR0108
-U 1 1 5DDAA44A
-P 14525 6525
-F 0 "#PWR0108" H 14525 6275 50  0001 C CNN
-F 1 "GND" H 14525 6375 50  0000 C CNN
-F 2 "" H 14525 6525 50  0001 C CNN
-F 3 "" H 14525 6525 50  0001 C CNN
-	1    14525 6525
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15125 5725 15125 5775
-Wire Wire Line
-	15125 5525 15125 5575
-NoConn ~ 14225 6525
 NoConn ~ 15125 6225
 NoConn ~ 15125 6125
-NoConn ~ 15125 5325
-NoConn ~ 15125 5225
 $Comp
 L jorian-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5DDAA460
@@ -1467,109 +1449,44 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14675 5
 	1    14525 5625
 	1    0    0    -1  
 $EndComp
-Text GLabel 15225 5575 2    50   Input ~ 0
-D-
-Text GLabel 15225 5775 2    50   Input ~ 0
-D+
-Wire Wire Line
-	15125 5575 15225 5575
-Wire Wire Line
-	15125 5775 15225 5775
-Text GLabel 15125 5025 2    50   Input ~ 0
-VUSB
-Text GLabel 15025 7150 2    50   Input ~ 0
-VUSB
-Wire Wire Line
-	15025 7900 15025 7950
-Connection ~ 15025 7900
-Wire Wire Line
-	15025 7900 15125 7900
-Wire Wire Line
-	15025 7700 15025 7750
-Connection ~ 15025 7700
-Wire Wire Line
-	15025 7700 15125 7700
-Text GLabel 15125 7900 2    50   Input ~ 0
-D+
-Text GLabel 15125 7700 2    50   Input ~ 0
-D-
-NoConn ~ 14125 8650
-NoConn ~ 15025 8250
-NoConn ~ 15025 8350
-Wire Wire Line
-	15025 7850 15025 7900
-Wire Wire Line
-	15025 7650 15025 7700
-$Comp
-L jorian-rescue:USB_C_Receptacle_USB2.0-Connector J2
-U 1 1 5DDAA495
-P 14425 7750
-F 0 "J2" H 14530 8617 50  0000 C CNN
-F 1 "USB-C" H 14530 8526 50  0000 C CNN
-F 2 "kbd:usb_type_c" H 14575 7750 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14575 7750 50  0001 C CNN
-	1    14425 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5DDAA49B
-P 14425 8650
-F 0 "#PWR0113" H 14425 8400 50  0001 C CNN
-F 1 "GND" H 14425 8500 50  0000 C CNN
-F 2 "" H 14425 8650 50  0001 C CNN
-F 3 "" H 14425 8650 50  0001 C CNN
-	1    14425 8650
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5DDAA4A1
-P 15575 8150
-F 0 "#PWR0115" H 15575 7900 50  0001 C CNN
-F 1 "GND" H 15580 7977 50  0000 C CNN
-F 2 "" H 15575 8150 50  0001 C CNN
-F 3 "" H 15575 8150 50  0001 C CNN
-	1    15575 8150
+P 16000 6125
+F 0 "#PWR0115" H 16000 5875 50  0001 C CNN
+F 1 "GND" H 16005 5952 50  0000 C CNN
+F 2 "" H 16000 6125 50  0001 C CNN
+F 3 "" H 16000 6125 50  0001 C CNN
+	1    16000 6125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15575 7450 15575 8150
-Connection ~ 15575 7450
+	16000 5425 16000 6125
+Connection ~ 16000 5425
 Wire Wire Line
-	15575 7350 15575 7450
+	16000 5325 16000 5425
 $Comp
 L Device:R R2
 U 1 1 5DDAA4AA
-P 15425 7450
-F 0 "R2" V 15310 7450 50  0000 C CNN
-F 1 "5.1K" V 15219 7450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15355 7450 50  0001 C CNN
-F 3 "~" H 15425 7450 50  0001 C CNN
-	1    15425 7450
+P 15850 5425
+F 0 "R2" V 15735 5425 50  0000 C CNN
+F 1 "5.1K" V 15644 5425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15780 5425 50  0001 C CNN
+F 3 "~" H 15850 5425 50  0001 C CNN
+	1    15850 5425
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5DDAA4B0
-P 15425 7350
-F 0 "R1" V 15632 7350 50  0000 C CNN
-F 1 "5.1K" V 15541 7350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15355 7350 50  0001 C CNN
-F 3 "~" H 15425 7350 50  0001 C CNN
-	1    15425 7350
+P 15850 5325
+F 0 "R1" V 16057 5325 50  0000 C CNN
+F 1 "5.1K" V 15966 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15780 5325 50  0001 C CNN
+F 3 "~" H 15850 5325 50  0001 C CNN
+	1    15850 5325
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	15275 7350 15025 7350
-Wire Wire Line
-	15025 7450 15275 7450
-Connection ~ 15125 5575
-Wire Wire Line
-	15125 5575 15125 5625
-Connection ~ 15125 5775
-Wire Wire Line
-	15125 5775 15125 5825
 Text GLabel 3975 3350 2    50   Input ~ 0
 RX
 $Comp
@@ -1838,17 +1755,6 @@ F 3 "" H 3800 3350 50  0001 C CNN
 $EndComp
 NoConn ~ 3725 3100
 $Comp
-L jorian-rescue:E73-2G4M08S1C-52840 U2
-U 1 1 5DDEC6CE
-P 1875 4900
-F 0 "U2" H 1850 6265 50  0000 C CNN
-F 1 "E73-2G4M08S1C-52840" H 1850 6174 50  0000 C CNN
-F 2 "kbd:E73-2G4M08S1C-52840" H 1875 4900 50  0001 C CNN
-F 3 "" H 1875 4900 50  0001 C CNN
-	1    1875 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_SPDT SW1
 U 1 1 5DDCE8AC
 P 2875 8325
@@ -2056,108 +1962,8 @@ Wire Wire Line
 Connection ~ 3700 1650
 Wire Wire Line
 	3700 1650 3800 1650
-Text GLabel 2525 5900 2    50   Input ~ 0
-VDDH
-Text GLabel 2525 5700 2    50   Input ~ 0
-DCCH
-Text GLabel 2525 5500 2    50   Input ~ 0
-VBUS
-Text GLabel 2525 3900 2    50   Input ~ 0
-S12
-Text GLabel 2525 4000 2    50   Input ~ 0
-S13
-Text GLabel 2525 4100 2    50   Input ~ 0
-S14
-Text GLabel 2525 4200 2    50   Input ~ 0
-S15
-Text GLabel 2525 4400 2    50   Input ~ 0
-S16
-Text GLabel 2525 4600 2    50   Input ~ 0
-S17
-Text GLabel 2525 4700 2    50   Input ~ 0
-S18
-Text GLabel 2525 4800 2    50   Input ~ 0
-S19
-Text GLabel 2525 4900 2    50   Input ~ 0
-S20
-Text GLabel 2525 5000 2    50   Input ~ 0
-S21
-Text GLabel 2525 5200 2    50   Input ~ 0
-S22
-Text GLabel 2525 5600 2    50   Input ~ 0
-RESET
-Text GLabel 2525 5100 2    50   Input ~ 0
-D+
-Text GLabel 2525 5300 2    50   Input ~ 0
-D-
-Text GLabel 2525 4500 2    50   Input ~ 0
-SWD
-Text GLabel 2525 4300 2    50   Input ~ 0
-SWC
-Text GLabel 1175 3800 0    50   Input ~ 0
-S1
-Text GLabel 1175 3900 0    50   Input ~ 0
-S2
-Text GLabel 1175 4000 0    50   Input ~ 0
-S3
-Text GLabel 1175 4100 0    50   Input ~ 0
-S4
-Text GLabel 1175 4300 0    50   Input ~ 0
-S5
-Text GLabel 1175 4400 0    50   Input ~ 0
-S6
-Text GLabel 1175 4500 0    50   Input ~ 0
-S7
-Text GLabel 1175 4600 0    50   Input ~ 0
-S8
-Text GLabel 1175 4700 0    50   Input ~ 0
-S9
-Text GLabel 1175 5200 0    50   Input ~ 0
-S10
-Text GLabel 1175 5400 0    50   Input ~ 0
-S11
-$Comp
-L power:GND #PWR0129
-U 1 1 5F2747C9
-P 925 5800
-F 0 "#PWR0129" H 925 5550 50  0001 C CNN
-F 1 "GND" H 930 5627 50  0000 C CNN
-F 2 "" H 925 5800 50  0001 C CNN
-F 3 "" H 925 5800 50  0001 C CNN
-	1    925  5800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0136
-U 1 1 5F2747CF
-P 925 4200
-F 0 "#PWR0136" H 925 3950 50  0001 C CNN
-F 1 "GND" H 930 4027 50  0000 C CNN
-F 2 "" H 925 4200 50  0001 C CNN
-F 3 "" H 925 4200 50  0001 C CNN
-	1    925  4200
-	0    1    1    0   
-$EndComp
-Text GLabel 1175 4900 0    50   Input ~ 0
-P0.26
-Text GLabel 1175 5500 0    50   Input ~ 0
-P0.04
-Text GLabel 1175 5300 0    50   Input ~ 0
-P0.08
-Text GLabel 1175 5100 0    50   Input ~ 0
-P0.06
-Text GLabel 1175 5700 0    50   Input ~ 0
-P0.12
-Text GLabel 1175 5900 0    50   Input ~ 0
-P0.07
-Text GLabel 1175 5000 0    50   Input ~ 0
-SCL
-Text GLabel 1175 4800 0    50   Input ~ 0
-SDA
 Text Notes 3425 875  0    50   ~ 0
 underside pins
-Text GLabel 2525 5400 2    50   Input ~ 0
-RX
 Text GLabel 2500 2625 2    50   Input ~ 0
 RX
 Text Label 9900 6750 2    50   ~ 0
@@ -2302,10 +2108,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 3150 3725 3150
 Wire Wire Line
-	1175 4200 925  4200
-Wire Wire Line
-	925  5800 1175 5800
-Wire Wire Line
 	1150 3025 900  3025
 Wire Wire Line
 	1150 1425 900  1425
@@ -2322,19 +2124,6 @@ F 3 "" H 2725 3025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 3025 2725 3025
-$Comp
-L power:GND #PWR0112
-U 1 1 5EE92B1A
-P 2750 5800
-F 0 "#PWR0112" H 2750 5550 50  0001 C CNN
-F 1 "GND" H 2755 5627 50  0000 C CNN
-F 2 "" H 2750 5800 50  0001 C CNN
-F 3 "" H 2750 5800 50  0001 C CNN
-	1    2750 5800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2525 5800 2750 5800
 Wire Wire Line
 	3800 1050 3600 1050
 $Comp
@@ -2349,8 +2138,6 @@ F 3 "" H 4050 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4050 5225
-Text GLabel 1175 5600 0    50   Input ~ 0
-VDD
 Wire Wire Line
 	3525 4575 3775 4575
 Wire Wire Line
@@ -2441,4 +2228,22 @@ Wire Wire Line
 Connection ~ 5200 8875
 Wire Wire Line
 	5200 8875 5200 9225
+Text GLabel 15700 5325 0    50   Input ~ 0
+CC1
+Text GLabel 15700 5425 0    50   Input ~ 0
+CC2
+Text GLabel 15125 5025 2    50   Input ~ 0
+VUSB
+Text GLabel 15125 5725 2    50   Input ~ 0
+D+
+Text GLabel 15125 5525 2    50   Input ~ 0
+D-
+Text GLabel 15125 5225 2    50   Input ~ 0
+CC1
+Text GLabel 15125 5325 2    50   Input ~ 0
+CC2
+Text GLabel 15125 5625 2    50   Input ~ 0
+D-
+Text GLabel 15125 5825 2    50   Input ~ 0
+D+
 $EndSCHEMATC
