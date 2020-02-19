@@ -1555,20 +1555,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 9300 8500 9300
 $Comp
-L Connector:USB_B_Micro J3
-U 1 1 5DDAA442
-P 13125 5500
-F 0 "J3" H 13180 5967 50  0000 C CNN
-F 1 "MicroUSB" H 13180 5876 50  0000 C CNN
-F 2 "kbd:usb_micro_custom" H 13275 5450 50  0001 C CNN
-F 3 "~" H 13275 5450 50  0001 C CNN
-	1    13125 5500
-	1    0    0    -1  
-$EndComp
-Text Label 13425 5300 0    50   ~ 0
-VUSB
-NoConn ~ 13025 5900
-$Comp
 L power:GND #PWR0108
 U 1 1 5DDAA44A
 P 14525 6525
@@ -1583,26 +1569,11 @@ Wire Wire Line
 	15125 5725 15125 5775
 Wire Wire Line
 	15125 5525 15125 5575
-NoConn ~ 13000 7125
-NoConn ~ 13400 6925
 NoConn ~ 14225 6525
 NoConn ~ 15125 6225
 NoConn ~ 15125 6125
 NoConn ~ 15125 5325
 NoConn ~ 15125 5225
-Text Label 13400 6525 0    50   ~ 0
-VUSB
-$Comp
-L Connector:USB_B_Micro J4
-U 1 1 5DDAA45A
-P 13100 6725
-F 0 "J4" H 13155 7192 50  0000 C CNN
-F 1 "MicroUSB" H 13155 7101 50  0000 C CNN
-F 2 "kbd:usb_micro_custom" H 13250 6675 50  0001 C CNN
-F 3 "~" H 13250 6675 50  0001 C CNN
-	1    13100 6725
-	1    0    0    -1  
-$EndComp
 $Comp
 L jorian-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5DDAA460
@@ -1614,29 +1585,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14675 5
 	1    14525 5625
 	1    0    0    -1  
 $EndComp
-NoConn ~ 13425 5700
-$Comp
-L power:GND #PWR0109
-U 1 1 5DDAA46D
-P 13125 5900
-F 0 "#PWR0109" H 13125 5650 50  0001 C CNN
-F 1 "GND" H 13125 5750 50  0000 C CNN
-F 2 "" H 13125 5900 50  0001 C CNN
-F 3 "" H 13125 5900 50  0001 C CNN
-	1    13125 5900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5DDAA473
-P 13100 7125
-F 0 "#PWR0112" H 13100 6875 50  0001 C CNN
-F 1 "GND" H 13100 6975 50  0000 C CNN
-F 2 "" H 13100 7125 50  0001 C CNN
-F 3 "" H 13100 7125 50  0001 C CNN
-	1    13100 7125
-	-1   0    0    -1  
-$EndComp
 Text GLabel 15225 5575 2    50   Input ~ 0
 D-
 Text GLabel 15225 5775 2    50   Input ~ 0
@@ -1645,14 +1593,6 @@ Wire Wire Line
 	15125 5575 15225 5575
 Wire Wire Line
 	15125 5775 15225 5775
-Text GLabel 13425 5500 2    50   Input ~ 0
-D+
-Text GLabel 13425 5600 2    50   Input ~ 0
-D-
-Text GLabel 13400 6825 2    50   Input ~ 0
-D-
-Text GLabel 13400 6725 2    50   Input ~ 0
-D+
 Text GLabel 15125 5025 2    50   Input ~ 0
 VUSB
 Text GLabel 15025 7150 2    50   Input ~ 0
