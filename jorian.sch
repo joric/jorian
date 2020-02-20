@@ -17,108 +17,108 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x04 E16
 U 1 1 5C28A7CD
-P 10550 8100
-F 0 "E16" H 10550 8300 50  0000 C CNN
-F 1 "right" H 10550 7800 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10550 8100 50  0001 C CNN
-F 3 "" H 10550 8100 50  0001 C CNN
-	1    10550 8100
+P 10300 7075
+F 0 "E16" H 10300 7275 50  0000 C CNN
+F 1 "right" H 10300 6775 50  0000 C CNN
+F 2 "kbd:edge_conn" H 10300 7075 50  0001 C CNN
+F 3 "" H 10300 7075 50  0001 C CNN
+	1    10300 7075
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 E18
 U 1 1 5C28AA80
-P 10350 8100
-F 0 "E18" H 10350 8300 50  0000 C CNN
-F 1 "left" H 10350 7800 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10350 8100 50  0001 C CNN
-F 3 "" H 10350 8100 50  0001 C CNN
-	1    10350 8100
+P 10100 7075
+F 0 "E18" H 10100 7275 50  0000 C CNN
+F 1 "left" H 10100 6775 50  0000 C CNN
+F 2 "kbd:edge_conn" H 10100 7075 50  0001 C CNN
+F 3 "" H 10100 7075 50  0001 C CNN
+	1    10100 7075
 	1    0    0    -1  
 $EndComp
-Text Label 10750 8200 0    50   ~ 0
+Text Label 10500 7175 0    50   ~ 0
 GND
-Text Label 10750 8300 0    50   ~ 0
+Text Label 10500 7275 0    50   ~ 0
 S18
-Text Label 10750 8000 0    50   ~ 0
+Text Label 10500 6975 0    50   ~ 0
 LED_VCC
 $Comp
 L Connector_Generic:Conn_01x04 E19
 U 1 1 5C6E087C
-P 10300 5250
-F 0 "E19" H 10300 5450 50  0000 C CNN
-F 1 "right" H 10300 4950 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10300 5250 50  0001 C CNN
-F 3 "" H 10300 5250 50  0001 C CNN
-	1    10300 5250
+P 11800 5650
+F 0 "E19" H 11800 5850 50  0000 C CNN
+F 1 "right" H 11800 5350 50  0000 C CNN
+F 2 "kbd:edge_conn" H 11800 5650 50  0001 C CNN
+F 3 "" H 11800 5650 50  0001 C CNN
+	1    11800 5650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 E5
 U 1 1 5C6E0883
-P 10100 5250
-F 0 "E5" H 10100 5450 50  0000 C CNN
-F 1 "left" H 10100 4950 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10100 5250 50  0001 C CNN
-F 3 "" H 10100 5250 50  0001 C CNN
-	1    10100 5250
+P 11600 5650
+F 0 "E5" H 11600 5850 50  0000 C CNN
+F 1 "left" H 11600 5350 50  0000 C CNN
+F 2 "kbd:edge_conn" H 11600 5650 50  0001 C CNN
+F 3 "" H 11600 5650 50  0001 C CNN
+	1    11600 5650
 	1    0    0    -1  
 $EndComp
-Text Label 9900 5450 2    50   ~ 0
+Text Label 11400 5850 2    50   ~ 0
 S19
-Text Label 9900 6150 2    50   ~ 0
+Text Label 11400 6550 2    50   ~ 0
 S20
 $Comp
 L Connector_Generic:Conn_01x04 E21
 U 1 1 5C6F2906
-P 10300 6650
-F 0 "E21" H 10300 6850 50  0000 C CNN
-F 1 "right" H 10300 6350 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10300 6650 50  0001 C CNN
-F 3 "" H 10300 6650 50  0001 C CNN
-	1    10300 6650
+P 11800 7050
+F 0 "E21" H 11800 7250 50  0000 C CNN
+F 1 "right" H 11800 6750 50  0000 C CNN
+F 2 "kbd:edge_conn" H 11800 7050 50  0001 C CNN
+F 3 "" H 11800 7050 50  0001 C CNN
+	1    11800 7050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 E15
 U 1 1 5C6F290D
-P 10100 6650
-F 0 "E15" H 10100 6850 50  0000 C CNN
-F 1 "left" H 10100 6350 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10100 6650 50  0001 C CNN
-F 3 "" H 10100 6650 50  0001 C CNN
-	1    10100 6650
+P 11600 7050
+F 0 "E15" H 11600 7250 50  0000 C CNN
+F 1 "left" H 11600 6750 50  0000 C CNN
+F 2 "kbd:edge_conn" H 11600 7050 50  0001 C CNN
+F 3 "" H 11600 7050 50  0001 C CNN
+	1    11600 7050
 	1    0    0    -1  
 $EndComp
-Text Label 9900 5950 2    50   ~ 0
+Text Label 11400 6350 2    50   ~ 0
 S22
-Text Label 10750 8100 0    50   ~ 0
+Text Label 10500 7075 0    50   ~ 0
 DIN18
-Text Label 10150 8300 2    50   ~ 0
+Text Label 9900 7275 2    50   ~ 0
 S18_A
-Text Label 10150 8200 2    50   ~ 0
+Text Label 9900 7175 2    50   ~ 0
 GND_A
-Text Label 10150 8000 2    50   ~ 0
+Text Label 9900 6975 2    50   ~ 0
 VCC_A
-Text Label 10150 8100 2    50   ~ 0
+Text Label 9900 7075 2    50   ~ 0
 DIN18_A
-Text Label 10500 5450 0    50   ~ 0
+Text Label 12000 5850 0    50   ~ 0
 S19_B
-Text Label 10500 6150 0    50   ~ 0
+Text Label 12000 6550 0    50   ~ 0
 S20_B
-Text Label 10500 6850 0    50   ~ 0
+Text Label 12000 7250 0    50   ~ 0
 S21_B
-Text Label 10500 5950 0    50   ~ 0
+Text Label 12000 6350 0    50   ~ 0
 S22_B
-Text Label 10500 6650 0    50   ~ 0
+Text Label 12000 7050 0    50   ~ 0
 VCC_B
-Text Label 10500 5250 0    50   ~ 0
+Text Label 12000 5650 0    50   ~ 0
 DIN21_B
-Text Label 9900 5150 2    50   ~ 0
+Text Label 11400 5550 2    50   ~ 0
 DIN5
-Text Label 10500 5150 0    50   ~ 0
+Text Label 12000 5550 0    50   ~ 0
 DIN5_B
-Text Label 9900 5250 2    50   ~ 0
+Text Label 11400 5650 2    50   ~ 0
 DIN21
 $Comp
 L Device:Battery_Cell BT1
@@ -134,23 +134,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 E20
 U 1 1 5C1C4E7E
-P 10300 5950
-F 0 "E20" H 10300 6150 50  0000 C CNN
-F 1 "right" H 10300 5650 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10300 5950 50  0001 C CNN
-F 3 "" H 10300 5950 50  0001 C CNN
-	1    10300 5950
+P 11800 6350
+F 0 "E20" H 11800 6550 50  0000 C CNN
+F 1 "right" H 11800 6050 50  0000 C CNN
+F 2 "kbd:edge_conn" H 11800 6350 50  0001 C CNN
+F 3 "" H 11800 6350 50  0001 C CNN
+	1    11800 6350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 E10
 U 1 1 5C1C4E85
-P 10100 5950
-F 0 "E10" H 10100 6150 50  0000 C CNN
-F 1 "left" H 10100 5650 50  0000 C CNN
-F 2 "kbd:edge_conn" H 10100 5950 50  0001 C CNN
-F 3 "" H 10100 5950 50  0001 C CNN
-	1    10100 5950
+P 11600 6350
+F 0 "E10" H 11600 6550 50  0000 C CNN
+F 1 "left" H 11600 6050 50  0000 C CNN
+F 2 "kbd:edge_conn" H 11600 6350 50  0001 C CNN
+F 3 "" H 11600 6350 50  0001 C CNN
+	1    11600 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1105,21 +1105,21 @@ Wire Wire Line
 $Comp
 L kbd:kbd_SK6812MINI L18
 U 1 1 5C54BB48
-P 9850 7375
-F 0 "L18" H 9850 7375 59  0000 C CNN
-F 1 "SK6812MINI" H 9850 7325 16  0000 C CNN
-F 2 "kbd:kbd_SK6812MINI" H 9850 7375 60  0001 C CNN
-F 3 "" H 9850 7375 60  0001 C CNN
-	1    9850 7375
+P 8175 7900
+F 0 "L18" H 8175 7900 59  0000 C CNN
+F 1 "SK6812MINI" H 8175 7850 16  0000 C CNN
+F 2 "kbd:kbd_SK6812MINI" H 8175 7900 60  0001 C CNN
+F 3 "" H 8175 7900 60  0001 C CNN
+	1    8175 7900
 	-1   0    0    -1  
 $EndComp
-Text Label 9650 7275 2    50   ~ 0
+Text Label 7975 7800 2    50   ~ 0
 VCC_A
-Text Label 9650 7475 2    50   ~ 0
+Text Label 7975 8000 2    50   ~ 0
 DIN18_A
-Text Label 10050 7475 0    50   ~ 0
+Text Label 8375 8000 0    50   ~ 0
 GND_A
-NoConn ~ 10050 7275
+NoConn ~ 8375 7800
 Wire Wire Line
 	6100 3550 6100 4750
 Wire Wire Line
@@ -1801,7 +1801,7 @@ F 3 "~" H 1800 7100 50  0001 C CNN
 	1    1800 7100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2500 1325 2    50   Input ~ 0
+Text GLabel 2500 2025 2    50   Input ~ 0
 S1
 $Comp
 L jorian-rescue:E73-2G4M08S1C-52840 U1
@@ -1814,39 +1814,39 @@ F 3 "" H 1850 2125 50  0001 C CNN
 	1    1850 2125
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 1225 2    50   Input ~ 0
+Text GLabel 2500 2125 2    50   Input ~ 0
 S2
-Text GLabel 2500 1125 2    50   Input ~ 0
+Text GLabel 2500 2225 2    50   Input ~ 0
 S3
 Text GLabel 1150 1925 0    50   Input ~ 0
 S4
 Text GLabel 1150 1825 0    50   Input ~ 0
 S5
-Text GLabel 2500 1925 2    50   Input ~ 0
-S6
 Text GLabel 2500 1825 2    50   Input ~ 0
+S6
+Text GLabel 2500 1925 2    50   Input ~ 0
 S7
-Text GLabel 1150 2425 0    50   Input ~ 0
+Text GLabel 2500 2425 2    50   Input ~ 0
 S8
 Text GLabel 1150 1525 0    50   Input ~ 0
 S9
 Text GLabel 1150 1325 0    50   Input ~ 0
 S10
-Text GLabel 1150 2625 0    50   Input ~ 0
+Text GLabel 2500 1425 2    50   Input ~ 0
 S11
-Text GLabel 2500 2025 2    50   Input ~ 0
+Text GLabel 2500 1625 2    50   Input ~ 0
 S12
 Text GLabel 1150 1025 0    50   Input ~ 0
 S13
-Text GLabel 2500 1425 2    50   Input ~ 0
+Text GLabel 1150 2625 0    50   Input ~ 0
 S14
-Text GLabel 2500 1625 2    50   Input ~ 0
+Text GLabel 1150 2425 0    50   Input ~ 0
 S15
-Text GLabel 2500 2125 2    50   Input ~ 0
+Text GLabel 2500 1225 2    50   Input ~ 0
 S16
-Text GLabel 2500 2225 2    50   Input ~ 0
+Text GLabel 2500 1325 2    50   Input ~ 0
 S17
-Text GLabel 2500 2425 2    50   Input ~ 0
+Text GLabel 2500 1125 2    50   Input ~ 0
 S18
 Text GLabel 1150 1725 0    50   Input ~ 0
 S19
@@ -1966,41 +1966,26 @@ Text Notes 3425 875  0    50   ~ 0
 underside pins
 Text GLabel 2500 2625 2    50   Input ~ 0
 RX
-Text Label 9900 6750 2    50   ~ 0
+Text Label 11400 7150 2    50   ~ 0
 GND
-Text Label 10500 6750 0    50   ~ 0
+Text Label 12000 7150 0    50   ~ 0
 GND_B
-Text Label 9900 6050 2    50   ~ 0
+Text Label 11400 6450 2    50   ~ 0
 GND
-Text Label 9900 6650 2    50   ~ 0
+Text Label 11400 7050 2    50   ~ 0
 LED_VCC
-Text Label 9900 6850 2    50   ~ 0
+Text Label 11400 7250 2    50   ~ 0
 S21
-Text Label 9900 5350 2    50   ~ 0
+Text Label 11400 5750 2    50   ~ 0
 GND
-Text Label 10500 5350 0    50   ~ 0
+Text Label 12000 5750 0    50   ~ 0
 GND_B
-NoConn ~ 10500 6550
-NoConn ~ 9900 6550
-NoConn ~ 9900 5850
-NoConn ~ 10500 5850
-Text Label 10500 6050 0    50   ~ 0
+NoConn ~ 12000 6950
+NoConn ~ 11400 6950
+NoConn ~ 11400 6250
+NoConn ~ 12000 6250
+Text Label 12000 6450 0    50   ~ 0
 GND_B
-Text GLabel 13225 5150 0    50   Input ~ 0
-SWC
-Text GLabel 13225 5250 0    50   Input ~ 0
-SWD
-$Comp
-L Connector_Generic:Conn_01x02 JP11
-U 1 1 5DDAA467
-P 13425 5150
-F 0 "JP11" H 13505 5192 50  0000 L CNN
-F 1 "SWD_conn" H 13505 5101 50  0000 L CNN
-F 2 "kbd:connector_swd" H 13425 5150 50  0001 C CNN
-F 3 "~" H 13425 5150 50  0001 C CNN
-	1    13425 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_FET:BS870 Q2
 U 1 1 5E4E7005
