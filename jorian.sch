@@ -1968,17 +1968,6 @@ $EndComp
 Text Notes 9600 9675 0    60   ~ 0
 Power Control\nNormally On\nLow - Off\n
 $Comp
-L power:VCC #PWR0132
-U 1 1 5E6286BD
-P 10350 9075
-F 0 "#PWR0132" H 10350 8925 50  0001 C CNN
-F 1 "VCC" H 10350 9225 50  0000 C CNN
-F 2 "" H 10350 9075 50  0001 C CNN
-F 3 "" H 10350 9075 50  0001 C CNN
-	1    10350 9075
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0133
 U 1 1 5E644E10
 P 10825 10000
@@ -2407,4 +2396,6 @@ Wire Wire Line
 	3975 2250 4075 2250
 NoConn ~ 3825 2250
 NoConn ~ 3975 2250
+Text GLabel 10350 9075 1    50   Input ~ 0
+VDDH
 $EndSCHEMATC
