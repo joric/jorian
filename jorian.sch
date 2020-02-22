@@ -2323,7 +2323,6 @@ NoConn ~ 3825 2250
 NoConn ~ 3975 2250
 Text GLabel 10200 9075 1    50   Input ~ 0
 VDDH
-NoConn ~ 5325 9425
 Text GLabel 4300 8925 2    60   Input ~ 0
 VBAT
 $Comp
@@ -2356,4 +2355,5 @@ Text GLabel 3950 9400 0    50   Input ~ 0
 BAT_SW
 Wire Wire Line
 	8325 9225 8800 9225
+NoConn ~ 5325 9425
 $EndSCHEMATC
