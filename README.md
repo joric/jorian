@@ -10,7 +10,7 @@ Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedg
 
 ## Download
 
-You can download Gerber files and schematics the [releases section](https://github.com/joric/jorian/releases).
+You can download Gerber files and schematic in the [releases section](https://github.com/joric/jorian/releases).
 
 ## Instructions
 
